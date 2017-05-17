@@ -60,7 +60,8 @@ function validateRegistration() {
 
   //Val() is false if the checkbox isn't in the form
   if( $('#inova_policy_check').val() ) {
-    if( $('#inova_policy_check').is(":checked") == false ) {
+    if( ($('#choice_web_design').is(":checked") == true || $('#choice_all').is(":checked") == true)
+        && $('#inova_policy_check').is(":checked") == false ) {
       $('#inova_policy_wrapper').css('background', 'red');
       canContinue = false;
     } else {

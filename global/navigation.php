@@ -10,23 +10,23 @@
                 <span class="icon-bar"></span>
             </button>
             <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-            <a class="navbar-brand" href="index.html">Summer of Opportunity</a>
+            <a class="navbar-brand" href="/">Summer of Opportunity</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="index.php#workshops">Workshops</a>
+                    <a href="/#workshops">Workshops</a>
                 </li>
                 <li>
-                    <a href="index.php#competitions">Competitions</a>
+                    <a href="/#competitions">Competitions</a>
                 </li>
                 <li>
                     <a href="about.php">About</a>
                 </li>
                 <li>
-                    <a href="index.php#contact">Contact</a>
+                    <a href="/contact.php">Contact</a>
                 </li>
             </ul>
         </div>

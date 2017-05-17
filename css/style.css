@@ -33,6 +33,9 @@ h2 {
 .navbar {
     margin-bottom: 0;
 }
+li {
+  color: white;
+}
 
 /* Container */
 .container-big {
@@ -58,12 +61,65 @@ h2 {
   }
 }
 
+/* Event Page */
 .bg-container {
   background: #333;
 }
 
 .title {
   color: white;
+}
+
+.feature-img {
+  margin: auto;
+  width:25%;
+}
+
+.organizer-logo {
+  margin-top: 30px;
+  margin: auto;
+  width:25%;
+}
+
+@media screen and (max-width: 720px) {
+  .organizer-logo {
+    display: none;
+  }
+}
+
+/* Schedule Table */
+thead {
+  background:#6c191d;
+  color:#fff
+}
+
+td, th {
+  text-align: center;
+}
+
+.table-striped tr:nth-child(even) {
+  background-color: #222;
+  color: white;
+}
+
+.table-striped tr:nth-child(odd) {
+  background-color: #fff;
+  color: black;
+}
+
+/* All Events */
+.all-events-card {
+  background: #fff;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.all-events-card p, .all-events-card h2 {
+  color: black !important;
+}
+
+.all-events-card img {
+  width:100%;
 }
 
 /* Navigation */
@@ -148,7 +204,10 @@ a, .navbar-brand {
 }
 
 @media screen and (max-width: 720px) {
-  .hero {padding: 25px;}
+  .hero {
+    padding: 25px;
+    background: url('../img/hero-small.jpg') no-repeat center center;
+  }
 
   .hero h1 {
     text-transform: uppercase;
@@ -176,11 +235,52 @@ a, .navbar-brand {
 }
 
 /* Alternate Hero Images */
-.hero-soft-skills {
-  /* Hero Image */
-  background: url('../img/hero-public-speaking.jpg') no-repeat center center !important;
-  background-color: #151314 !important;
+.hero-web-design {
+  background: url('../img/hero-web-design.jpg') no-repeat center center !important;
+  /* background-color: #151314 !important; In case the image doesn't fit fill space with colour */
   height: 60vh !important;
+}
+
+.hero-academic-success {
+  background: url('../img/hero-academic-success.jpg') no-repeat center center !important;
+  height: 60vh !important;
+}
+
+.hero-medicine {
+  background: url('../img/hero-medicine.jpg') no-repeat center center !important;
+  height: 60vh !important;
+}
+
+.hero-soft-skills {
+  background: url('../img/hero-soft-skills.jpg') no-repeat center center !important;
+  height: 60vh !important;
+}
+
+.hero-competition {
+  background: url('../img/hero-competition.jpg') no-repeat center center !important;
+  height: 60vh !important;
+}
+
+@media screen and (max-width: 720px) {
+  .hero-web-design {
+    background: url('../img/hero-web-design-small.jpg') no-repeat center center !important;
+  }
+
+  .hero-academic-success {
+    background: url('../img/hero-academic-success-small.jpg') no-repeat center center !important;
+  }
+
+  .hero-medicine {
+    background: url('../img/hero-medicine-small.jpg') no-repeat center center !important;
+  }
+
+  .hero-soft-skills {
+    background: url('../img/hero-soft-skills-small.jpg') no-repeat center center !important;
+  }
+
+  .hero-competition {
+    background: url('../img/hero-competition-small.jpg') no-repeat center center !important;
+  }
 }
 
 /* Small Hero */
@@ -211,7 +311,8 @@ a, .navbar-brand {
 	border:2px solid transparent;
 }
 .btn-wire:hover{
-	background:transparent!important;
+	background:#fff!important;
+  color:#000!important;
 	border:2px solid transparent;
 }
 
@@ -249,24 +350,6 @@ a, .navbar-brand {
 }
 
 /* Events Row */
-/* Cards Id */
-
-#card-1{
-
-}
-
-#card-2{
-
-}
-
-#card-3{
-
-}
-
-#card-4{
-
-}
-
 #workshops, #competition {
   text-align: center;
 }
@@ -430,6 +513,10 @@ a, .navbar-brand {
 input[type="checkbox"] {
   height: auto;
   width: auto;
+}
+
+#inova_policy_check, #inova_policy_wrapper {
+  display: none;
 }
 
 .checkbox_text_choice {

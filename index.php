@@ -58,7 +58,7 @@ include './global/header.php';
         <!-- Row 1 -->
         <div class="row" id="row-cards">
           <div class="col-xs-12 col-sm-6">
-            <div class="card" id="card-3">
+            <div class="card">
               <h2>Web Design</h2>
               <ul style="list-style:none; padding-left: 0px;" class="card-list">
                   <li>Learn HTML & CSS</li>
@@ -72,7 +72,7 @@ include './global/header.php';
 
 
           <div class="col-xs-12 col-sm-6">
-            <div class="card" id="card-4">
+            <div class="card">
               <h2>Careers In Medicine</h2>
              <!-- <p style="margin-bottom:30px;">Listen to industry professionals tell you what it's really like.</p> -->
                 <ul style="list-style:none; padding-left: 0px;" class="card-list">
@@ -89,7 +89,7 @@ include './global/header.php';
       <!-- Row 2 -->
       <div class="row" id="row-cards">
         <div class="col-xs-12 col-sm-6">
-          <div class="card" id="card-1">
+          <div class="card">
             <h2>Soft Skills</h2>
             <ul style="list-style:none; padding-left: 0px;" class="card-list">
                 <li>Lorem ipsum dolor sit amet</li>
@@ -102,7 +102,7 @@ include './global/header.php';
         </div>
 
         <div class="col-xs-12 col-sm-6">
-          <div class="card" id="card-2">
+          <div class="card">
             <h2>Academic Success</h2>
            <!-- <p style="margin-bottom:30px;">Tips and tricks on how to write a university application.</p> -->
               <ul style="list-style:none; padding-left: 0px;" class="card-list">
@@ -212,80 +212,74 @@ include './global/header.php';
   </section>
   <!-- End calendar section-->
 
+  <!-- Organizers Container -->
+  <div class="container text-center">
+
+    <h2 class="title">Organizations Involved</h2>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <img src="img/html.png" alt="HTML" class="img-responsive feature-img"></img>
+        <h2>HTML</h2>
+        <p>Hypertext Markup Language is used in every website.</p>
+      </div>
+    </div>
+  </div>
+  <!-- End What you'll learn Container -->
+
+  <!-- Sponsors Container -->
+  <div class="container-big text-center bg-container">
+
+    <h1 class="title">What You'll Learn</h1>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="img/html.png" alt="HTML" class="img-responsive feature-img"></img>
+        <h2>HTML</h2>
+        <p>Hypertext Markup Language is used in every website.</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="img/sitemap.png" alt="website structure" class="img-responsive feature-img"></img>
+        <h2>Website Structure</h2>
+        <p>What's a body tag? Come and find out.</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="img/css.png" alt="css" class="img-responsive feature-img"></img>
+        <h2>CSS</h2>
+        <p>Cascading style sheets make websites responsive and beautiful.</p>
+      </div>
+    </div>
+  </div>
+  <!-- End What you'll learn Container -->
+
   <!-- Reopen main container -->
   <div class="container">
-    <!-- Registration -->
-    <section id="registration">
-      <div class="col-xs-6 col-md-offset-3">
-        <div class="animated pulse" id="register">
-          <!-- Event Choices -->
-          <p>Register for...</p>
-          <div id="choices">
-            <div class="row">
-              <div class="col-xs-6">
-                <input id="choice_web_design" type="checkbox"><p class="checkbox_text_choice">Web Design ($10)</p>
-              </div>
-              <div class="col-xs-6">
-                <input id="choice_academic_success" type="checkbox"><p class="checkbox_text_choice">Academic Success ($10)</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-6">
-                <input id="choice_careers_in_medicine" type="checkbox"><p class="checkbox_text_choice">Careers In Medicine ($10)</p>
-              </div>
-              <div class="col-xs-6">
-                <input id="choice_soft_skills" type="checkbox"><p class="checkbox_text_choice">Soft Skills ($10)</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-6">
-                <input id="choice_competition" type="checkbox"><p class="checkbox_text_choice">Business Competition ($15)</p>
-              </div>
-              <div class="col-xs-6">
-                <input id="choice_all" type="checkbox"><p class="checkbox_text_choice">All Events ($45) BEST DEAL</p>
-              </div>
-            </div>
-          </div>
-          <!-- End Event Choices -->
+    <?php
+    include 'global/registration-form.php';
+    ?>
 
-          <!-- Registration Form -->
-          <p>Attendee Info</p>
-          <input class="side-by-side-left" id="register_first_name" name="register_first_name" type="text" placeholder="FIRST NAME">
-          <input class="side-by-side-right" id="register_last_name" name="register_last_name" type="text" placeholder="LAST NAME">
-          <input id="register_email" class="side-by-side-left" style="margin-bottom:24px; border-bottom:solid 1px;" name="register_email" type="text" placeholder="E-MAIL">
-          <input class="side-by-side-right" style="margin-bottom:24px; border-bottom:solid 1px;" id="register_grade" name="register_grade" type="number" placeholder="GRADE">
-          <input id="inova_policy_check" type="checkbox"><a id="inova_policy_wrapper" href="http://www.inovaca.org/eventpolicy/" target="_blank"> I agree to Inova's event policy.</a>
-          <p style="padding-top:16px;">Emergency Contact Info</p>
-          <input class="side-by-side-left" id="register_emergency_first_name" name="register_emergency_first_name" type="text" placeholder="FIRST NAME">
-          <input class="side-by-side-right" id="register_emergency_last_name" name="register_emergency_last_name" type="text" placeholder="LAST NAME">
-          <input id="register_emergency_phone" name="register_emergency_phone" type="text" placeholder="PHONE NUMBER"><br>
 
-          <input id="submit" type="submit" class="btn-checkout" value="CHECKOUT NOW">
-
-          <p class="small text-center">There are no refunds available under any circumstances except as required by law.</p>
+    <div class="row">
+      <!-- Like our Facebook page -->
+        <div class="col-md-5">
+          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F56PaperClips%2F&width=340&height=300&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1344105575651022" width="340" height="205" style="border:none;overflow:hidden; display: table;margin: 0 auto; margin-top:20px;" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
         </div>
-      </div>
-		</section>
-    <!-- End Registration -->
+        <!-- End Like our Facebook page -->
 
-
-        <div class="row">
-            <div class="col-md-5">
-              <!-- Like our Facebook page -->
-              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F56PaperClips%2F&width=340&height=300&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1344105575651022" width="340" height="205" style="border:none;overflow:hidden; display: table;margin: 0 auto; margin-top:20px;" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-              <!-- End Like our Facebook page -->
-            </div>
-            <div class="col-md-2">
-                <div class="vr" style="margin-left:48%;"></div>
-            </div>
-            <div class="col-md-5" id="mobile-btn-contact">
-              <a href="contact.html" class="btn btn-wire wire-btn-white animated fadeInDown animDelay08" style="display: table;margin: 0 auto;">
-                  Contact Us
-              </a>
-            </div>
+        <!-- Vertical Line Divider -->
+        <div class="col-md-2">
+            <div class="vr" style="margin-left:48%;"></div>
         </div>
+        <!-- End Vertical Line Divider -->
 
-    <!-- End Contact -->
+        <!-- Contact Us Button -->
+        <div class="col-md-5" id="mobile-btn-contact">
+          <a href="contact.html" class="btn btn-wire wire-btn-white animated fadeInDown animDelay08" style="display: table;margin: 0 auto;">
+              Contact Us
+          </a>
+        </div>
+        <!-- End Contact Us Button -->
+    </div>
 
   </div>
   <!-- End main container -->
@@ -294,109 +288,4 @@ include './global/header.php';
 <?php
 include 'global/footer.php';
 ?>
-
-<!-- Import Form Validation  -->
-<script src="js/validate-registration.js" type="text/javascript"></script>
-
-<!-- Import JQuery -->
-<script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-
-<!-- Import Checkout by Stripe -->
-<script src="https://checkout.stripe.com/checkout.js"></script>
-
-<script>
-var registrationCost = 0;
-
-var handler = StripeCheckout.configure({
-  key: "<?php echo $stripe['publishable_key'];?>",
-  name: 'The Summer of Opportunity',
-  zipCode: false,
-  currency: 'cad',
-  image: 'https://summerofopportunity.com/img/checkout.jpg',
-  locale: 'en',
-  token: function(token) {
-    const FIRST_NAME = $('#register_first_name').val();
-    const LAST_NAME = $('#register_last_name').val();
-    const EMAIL = $('#register_email').val();
-    const GRADE = $('#register_grade').val();
-    const EMERG_FIRST_NAME = $('#register_emergency_first_name').val();
-    const EMERG_LAST_NAME = $('#register_emergency_last_name').val();
-    const EMERG_PHONE = $('#register_emergency_phone').val();
-    var events_attending = {};
-    events_attending['web_design'] = $('#choice_web_design').is(":checked");
-    events_attending['academic_success'] = $('#choice_academic_success').is(":checked");
-    events_attending['careers_in_medicine'] = $('#choice_careers_in_medicine').is(":checked");
-    events_attending['soft_skills'] = $('#choice_soft_skills').is(":checked");
-    events_attending['competition'] = $('#choice_competition').is(":checked");
-    if( $('#choice_all').val() && $('#choice_all').is(":checked") ) {
-      events_attending['all'] = true;
-    } else {
-      events_attending['all'] = false;
-    }
-
-    $.ajax({ url: './php/registration-form.php',
-         data: {register_first_name: FIRST_NAME,
-                register_last_name: LAST_NAME,
-                register_email: EMAIL,
-                register_grade: GRADE,
-                register_emergency_first_name: EMERG_FIRST_NAME,
-                register_emergency_last_name: EMERG_LAST_NAME,
-                register_emergency_phone: EMERG_PHONE,
-                fee: registrationCost,
-                events_attending: events_attending,
-                token: token.id},
-         type: 'post',
-         success: function(output) {
-           window.location.href = "https://www.summerofopportunity.com/thank-you.php";
-
-           //Enable when debugging
-           //alert(output);
-         },
-         error: function(err) {
-            console.log(err);
-            alert("Error outputted to the console.");
-         }
-       });
-     }
-});
-
-document.getElementById('submit').addEventListener('click', function(e) {
-  if( validateRegistration() ) {
-    registrationCost = 0;
-    const eventFee = 1000;
-    const competitionFee = 1500;
-
-    if( $('#choice_all').is(":checked") ) {
-      registrationCost = eventFee*3 + competitionFee;
-    } else {
-      if( $('#choice_web_design').is(":checked") ) {
-        registrationCost += eventFee;
-      }
-      if( $('#choice_academic_success').is(":checked") ) {
-        registrationCost += eventFee;
-      }
-      if( $('#choice_careers_in_medicine').is(":checked") ) {
-        registrationCost += eventFee;
-      }
-      if( $('#choice_soft_skills').is(":checked") ) {
-        registrationCost += eventFee;
-      }
-      if( $('#choice_competition').is(":checked") ) {
-        registrationCost += competitionFee;
-      }
-    }
-
-    handler.open({
-      description: 'Event Registration',
-      email: $('#register_email').val(),
-      amount: registrationCost
-    });
-  }
-});
-
-//Close Checkout on page navigation:
-window.addEventListener('popstate', function() {
-  handler.close();
-});
-</script>
 </html>
