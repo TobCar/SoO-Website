@@ -34,6 +34,38 @@ h2 {
     margin-bottom: 0;
 }
 
+/* Container */
+.container-big {
+  padding-left: 240px;
+  padding-right: 240px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right:auto;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .container-big {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .container-big {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.bg-container {
+  background: #333;
+}
+
+.title {
+  color: white;
+}
+
 /* Navigation */
 .navbar-brand {
     text-transform: uppercase;
@@ -63,7 +95,7 @@ a, .navbar-brand {
 }
 
 /* Hero */
-#hero {
+.hero {
   /* Hero Image */
   background: url('../img/hero.jpg') no-repeat center center;
   -webkit-background-size: cover;
@@ -144,11 +176,22 @@ a, .navbar-brand {
 }
 
 /* Alternate Hero Images */
-.hero-public-speaking {
+.hero-soft-skills {
   /* Hero Image */
   background: url('../img/hero-public-speaking.jpg') no-repeat center center !important;
   background-color: #151314 !important;
-  padding-top: 135px !important;
+  height: 60vh !important;
+}
+
+/* Small Hero */
+.hero-small {
+  padding-top: 55px !important;
+  padding-bottom: 30px !important;
+  height: 60vh !important;
+}
+
+.hero-small h1 {
+  margin-top: 0;
 }
 
 /* Button */
@@ -177,6 +220,12 @@ a, .navbar-brand {
 	border-color:#ffffff!important;
 }
 
+.btn-hero {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Box */
 .box {
     margin-bottom: 30px;
@@ -185,9 +234,8 @@ a, .navbar-brand {
 .box-coloured {
     margin-bottom: 30px;
     padding: 30px;
-    background: #fff;
-    background: rgba(18,132,110, 0.9);
-    /*background: rgba(255,255,255,0.9); White */
+    background: #6c191d;
+    background: rgba(108,25,29, 0.9);
 }
 
 @media screen and (max-width:720px) {
@@ -249,7 +297,7 @@ a, .navbar-brand {
 }
 
 .card .btn {
-  background: #2ecc71;
+  background: #a01016;
   border-radius: 40px;
   padding-left: 24px;
   padding-right: 24px;
@@ -260,7 +308,7 @@ a, .navbar-brand {
 }
 
 .card .btn:hover {
-  background: #00b16a;
+  background: #6c191d;
   color: #fff;
 }
 
@@ -280,7 +328,7 @@ a, .navbar-brand {
 .calendar-title {
     padding: 70px 25px;
     width: 100%;
-    background: #12846e;
+    background: #6c191d;
     /*border-top-left-radius: 10px;
     border-top-right-radius: 10px;*/
 }
@@ -293,7 +341,7 @@ a, .navbar-brand {
 .month {
     padding: 25px;
     width: 100%;
-    background: #1abc9c;
+    background: #a01016;
 
 }
 

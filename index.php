@@ -1,25 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+include './global/header.php';
+?>
 
+<!-- This will display an extra head tag after the header is parsed but is necessary to change the description and title. -->
 <head>
-  <meta charset="utf-8">
-  <meta name="keywords" content="summer, opportunities, events, teenagers, learn">
-  <meta content="Summer of Opportunity" property="og:site_name"/>
   <meta name="description" content="A summer of events for teenagers at the start of August, hosted by 56 Paper Clips.">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
-  <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/animated.css">
-  <link rel="stylesheet" href="css/style.css">
+  <title>Summer of Opportunity | Home</title>
 </head>
-
-<title>Summer of Opportunity | Home</title>
 
 <body>
   <!-- Hero area -->
-  <section id="hero" class="hero">
+  <section class="hero">
         <div class="col-md-7">
             <h1 class="text-center animated fadeInUp">A <span class="emphasis">Week</span> of <span class="emphasis">Events</span> for <span class="emphasis">Teens</span></h1>
 
@@ -43,40 +34,9 @@
   </section>
   <!-- End hero area -->
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-default" role="navigation">
-      <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-              </button>
-              <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-              <a class="navbar-brand" href="index.html">Summer of Opportunity</a>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="navbar-collapse">
-              <ul class="nav navbar-nav">
-                  <li>
-                      <a href="https://www.summerofopportunity.com/#workshops">Workshops</a>
-                  </li>
-                  <li>
-                      <a href="https://www.summerofopportunity.com/#calendar">Dates</a>
-                  </li>
-                  <li>
-                      <a href="https://www.summerofopportunity.com/contact.html">Contact</a>
-                  </li>
-              </ul>
-          </div>
-          <!-- End navbar-collapse -->
-      </div>
-      <!-- End container -->
-  </nav>
-  <!-- End Navigation -->
+  <?php
+  include 'global/navigation.php';
+  ?>
 
   <!-- Main Container -->
   <div class="container">
@@ -90,7 +50,7 @@
     <section id="workshops" class="box">
       <!-- Title -->
 
-          <h1 class="text-center" style="color:white; margin-bottom: 20px">Workshops about...</h1>
+      <h1 class="text-center title" style="margin-bottom: 20px">Workshops about...</h1>
 
       <!-- End Title -->
 
@@ -331,9 +291,9 @@
   <!-- End main container -->
 </body>
 
-<footer>
-  <a href="https://www.56paperclips.com"><p>Copyright © 2017<br>56 Paper Clips</p></a>
-</footer>
+<?php
+include 'global/footer.php';
+?>
 
 <!-- Import Form Validation  -->
 <script src="js/validate-registration.js" type="text/javascript"></script>
@@ -348,8 +308,8 @@
 var registrationCost = 0;
 
 var handler = StripeCheckout.configure({
-  key: 'pk_test_20da6k5uuXLFR1oEmE0a7YLu',
-  name: 'The Summer Of Opportunity',
+  key: "<?php echo $stripe['publishable_key'];?>",
+  name: 'The Summer of Opportunity',
   zipCode: false,
   currency: 'cad',
   image: 'https://summerofopportunity.com/img/checkout.jpg',
@@ -387,7 +347,7 @@ var handler = StripeCheckout.configure({
                 token: token.id},
          type: 'post',
          success: function(output) {
-           window.location.href = "https://www.summerofopportunity.com/thank-you.html";
+           window.location.href = "https://www.summerofopportunity.com/thank-you.php";
 
            //Enable when debugging
            //alert(output);
