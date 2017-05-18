@@ -124,6 +124,7 @@ td, th {
 
 .all-events-card img {
   width:100%;
+  height: 200px;
 }
 
 /* Navigation */
@@ -240,29 +241,48 @@ a, .navbar-brand {
 
 /* Alternate Hero Images */
 .hero-web-design {
-  background: url('../img/hero-web-design.jpg') no-repeat center center !important;
-  /* background-color: #151314 !important; In case the image doesn't fit fill space with colour */
+  background: url('../img/hero-web-design.jpg') no-repeat center !important;
   height: 60vh !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  background-size: cover !important;
+  -o-background-size: cover !important;
 }
 
 .hero-academic-success {
   background: url('../img/hero-academic-success.jpg') no-repeat center center !important;
   height: 60vh !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  background-size: cover !important;
+  -o-background-size: cover !important;
 }
 
 .hero-medicine {
   background: url('../img/hero-medicine.jpg') no-repeat center center !important;
   height: 60vh !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  background-size: cover !important;
+  -o-background-size: cover !important;
 }
 
 .hero-soft-skills {
   background: url('../img/hero-soft-skills.jpg') no-repeat center center !important;
   height: 60vh !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  background-size: cover !important;
+  -o-background-size: cover !important;
 }
 
 .hero-competition {
   background: url('../img/hero-competition.jpg') no-repeat center center !important;
   height: 60vh !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  background-size: cover !important;
+  -o-background-size: cover !important;
 }
 
 @media screen and (max-width: 720px) {
@@ -354,16 +374,16 @@ a, .navbar-brand {
 }
 
 /* Events Row */
-#workshops, #competition {
+.workshops, #competition {
   text-align: center;
 }
 
-#workshops, #competition p {
+.workshops, #competition p {
   width: 100%;
   height: 0px; /* Scale height to fit text */
 }
 
-#workshops, #competition img {
+.workshops, #competition img {
   margin-left: auto;
   margin-right: auto;
 }
