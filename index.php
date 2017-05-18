@@ -12,18 +12,18 @@ include './global/header.php';
   <!-- Hero area -->
   <section class="hero">
         <div class="col-md-7">
-            <h1 class="text-center animated fadeInUp">A <span class="emphasis">Week</span> of <span class="emphasis">Events</span> for <span class="emphasis">Teens</span></h1>
+            <h1 class="text-center animated fadeInUp"><span class="emphasis">5 Events</span><br><span class="emphasis">500 Teens</span></h1>
 
             <div class="line-text">
               <h2 class="text-center animated fadeInUp">A Summer of Opportunity</h2>
             </div>
 
             <h3 class="text-center animated fadeInUp animDelay04">
-                Learn about  <br class="br">
-                Making Websites | Writing A CV | Medical Careers<br></h3>
+                Some of the things you will learn...  <br class="br">
+                Making Websites | Writing A CV | Medical Careers <br></h3>
 
 
-            <p class="text-center animated fadeInUp animDelay04">and win <span style="font-size: 25px">$1250</span> in the community initiative competition</p>
+            <p class="text-center animated fadeInUp animDelay04">and <span style="font-size: 25px">win $1250</span> in the community initiative competition</p>
 
             <center>
               <h3 class="btn btn-wire wire-btn-white animated fadeInDown animDelay08">
@@ -219,34 +219,48 @@ include './global/header.php';
 
     <div class="row">
       <div class="col-sm-12">
-        <img src="img/html.png" alt="HTML" class="img-responsive feature-img"></img>
-        <h2>HTML</h2>
-        <p>Hypertext Markup Language is used in every website.</p>
+        <img src="img/56pc-logo.png" alt="56 Paper Clips Logo" class="img-responsive feature-img" style="width:50%!important;">
+        <a href="https://www.56paperclips.com"><h3>56 Paper Clips  |  Head Coordinator</h3></a>
+        <p>Led by Tobias Carryer and Tessa Furey</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <h2>Event Organizers</p>
+      <div class="col-sm-3">
+        <img src="img/inova-logo.png" alt="Inova Logo" class="img-responsive feature-img">
+        <h3>Inova Computer Association</h3>
+      </div>
+      <div class="col-sm-3">
+        <img src="img/nsn-logo.png" alt="NSN Logo" class="img-responsive feature-img">
+        <h3>National Student Network</h3>
+      </div>
+      <div class="col-sm-3">
+        <img src="img/wyns-logo.png" alt="WYNS Logo" class="img-responsive feature-img">
+        <h3>Wish Youth Network Society</h3>
+      </div>
+      <div class="col-sm-3">
+        <img src="img/ldg-logo.png" alt="LDG Logo" class="img-responsive feature-img"></img>
+        <h3>Local Development Group</h3>
       </div>
     </div>
   </div>
-  <!-- End What you'll learn Container -->
+  <!-- End Organizers Container -->
 
   <!-- Sponsors Container -->
-  <div class="container-big text-center bg-container">
+  <div class="container-big text-center bg-container" id="sponsors">
 
-    <h1 class="title">What You'll Learn</h1>
+    <h1 class="title">Sponsors</h1>
 
     <div class="row">
       <div class="col-sm-4">
-        <img src="img/html.png" alt="HTML" class="img-responsive feature-img"></img>
-        <h2>HTML</h2>
-        <p>Hypertext Markup Language is used in every website.</p>
+        <img src="img/davidstea-logo.png" alt="DavidsTea Logo" class="img-responsive">
       </div>
       <div class="col-sm-4">
-        <img src="img/sitemap.png" alt="website structure" class="img-responsive feature-img"></img>
-        <h2>Website Structure</h2>
-        <p>What's a body tag? Come and find out.</p>
+        <img src="img/hive-logo.png" alt="HiVE Logo" class="img-responsive">
       </div>
       <div class="col-sm-4">
-        <img src="img/css.png" alt="css" class="img-responsive feature-img"></img>
-        <h2>CSS</h2>
-        <p>Cascading style sheets make websites responsive and beautiful.</p>
+        <img src="img/envisionfinancial-logo.png" alt="Envision Financial Logo" class="img-responsive">
       </div>
     </div>
   </div>

@@ -93,7 +93,7 @@ include 'global/header.php';
       <!-- End Venue -->
 
       <!-- What to Bring -->
-      <div class="col-sm-4">
+      <div class="col-sm-4" id="what-to-bring">
         <h2>What To Bring</h2>
         <p>Laptop</p>
         <p>Water Bottle</p>

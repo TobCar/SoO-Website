@@ -20,9 +20,9 @@ body {
   background-color: #131313;
   background-size: 20px 20px;
 }
-h1, h2 {
-    text-transform: uppercase;
-    letter-spacing: 3px;
+h1, h2, h3 {
+    text-transform: uppercase !important;
+    letter-spacing: 3px !important;
   }
 h1 {
   font-size: 32px;
@@ -30,11 +30,11 @@ h1 {
 h2 {
   font-size: 20px;
 }
+h3 {
+  font-size: 16px;
+}
 .navbar {
     margin-bottom: 0;
-}
-li {
-  color: white;
 }
 
 /* Container */
@@ -85,6 +85,10 @@ li {
   .organizer-logo {
     display: none;
   }
+}
+
+#what-to-bring li {
+  color: white;
 }
 
 /* Schedule Table */
@@ -721,14 +725,10 @@ footer p {
     left:10px;
     height: 200px;
 }
-.vr2{
-    display: inline-block;
-    width:2px;
-    background-color: white;
-    margin: 0px;
-    padding: 0px;
-
-    height: 30px;
+@media screen and (max-width: 768px) {
+  .vr {
+      display: none;
+  }
 }
 .text-subjects{
     margin-bottom: 50px;
