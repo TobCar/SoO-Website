@@ -1,5 +1,5 @@
 <!-- All Events Container -->
-<div class="container text-center">
+<div class="container text-center" id="events">
   <h1 class="title"><br>All Summer of Opportunity Events</h1>
 
   <!-- First Row of Event Cards -->

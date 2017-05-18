@@ -17,16 +17,13 @@
         <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="/#workshops">Workshops</a>
+                    <a href="#events">Events</a>
                 </li>
                 <li>
-                    <a href="/#competitions">Competitions</a>
+                  <a href="#register">Register</a>
                 </li>
                 <li>
-                    <a href="about.php">About</a>
-                </li>
-                <li>
-                    <a href="/contact.php">Contact</a>
+                  <a href="https://www.summerofopportunity.com/contact">Contact</a>
                 </li>
             </ul>
         </div>
