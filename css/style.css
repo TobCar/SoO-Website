@@ -222,6 +222,10 @@ a, .navbar-brand {
   .hero h1 .emphasis {
     font-size: 30px;
   }
+
+  #hero-register {
+    display: none;
+  }
 }
 
 @media screen and (max-width:900px) {
@@ -421,6 +425,22 @@ a, .navbar-brand {
 
 .card .btn-blue:hover {
   background: #446cb3!important;
+}
+
+.cic-description {
+  margin-bottom: 200px;
+}
+
+@media screen and (max-width:760px) {
+  .cic-description {
+    margin-bottom: 240px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .cic-description {
+    margin-bottom: 300px;
+  }
 }
 
 /* Calendar of all Events*/

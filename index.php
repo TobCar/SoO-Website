@@ -6,6 +6,7 @@ include './global/header.php';
 <head>
   <meta name="description" content="A summer of events for teenagers at the start of August, hosted by 56 Paper Clips.">
   <title>Summer of Opportunity | Home</title>
+  <meta property="og:title" content="The Summer of Opportunity"/>
 </head>
 
 <body>
@@ -18,17 +19,19 @@ include './global/header.php';
               <h2 class="text-center animated fadeInUp">A Summer of Opportunity</h2>
             </div>
 
+            <p class="text-center animated fadeInUp">August 2017</p>
+
             <h3 class="text-center animated fadeInUp animDelay04">
                 Some of the things you will learn...  <br class="br">
-                Making Websites | Writing A CV | Medical Careers <br></h3>
+                Making Websites | Writing A CV | Public Speaking <br></h3>
 
 
             <p class="text-center animated fadeInUp animDelay04">and <span style="font-size: 25px">win $1250</span> in the community initiative competition</p>
 
             <center>
-              <h3 class="btn btn-wire wire-btn-white animated fadeInDown animDelay08">
+              <a class="btn btn-wire wire-btn-white animated fadeInDown animDelay08" id="hero-register" href="#register">
                   Register Now
-              </h3>
+              </a>
             </center>
         </div>
   </section>
@@ -42,12 +45,12 @@ include './global/header.php';
   <div class="container">
 
     <section id="about" class="box-coloured" style="margin-top: 30px;">
-      <h3>Learning and discovery shouldn't end with the school year.</h3>
-      <p><a href="https://www.56paperclips.com">56 Paper Clips</a> is happy to welcome all BC teens to the Summer of Opportunity. Attend any, or all, of our events and get a taste of the activities you can pursue in your spare time.</p>
-      <p>We are proud to have partnered with Inova, WYNS, NSN, and LDG to make this summer a success.</p>
+      <h3>Today's world is constantly changing place. It requires you to think big, be creative, and take every chance you get.</h3>
+      <p>At the Summer of Opportunity, you can develop the skills needed navigate your future in this world. Learn about everything from coding to networking at this groundbreaking event, presented by <a href="https://www.56paperclips.com">56 Paper Clips</a> in partnership with the Local Development Group, National Student Network, Wish Youth Network Society, and Inova.</p>
+      <p>Organized by students for students, the Summer of Opportunity is your chance to explore new ideas and learn valuable skills through workshops, seminars and competitions hosted at HiVE in downtown Vancouver.</p>
     </section>
 
-    <section id="workshops" class="box">
+    <section id="events" class="workshops box">
       <!-- Title -->
 
       <h1 class="text-center title" style="margin-bottom: 20px">Workshops about...</h1>
@@ -55,6 +58,9 @@ include './global/header.php';
       <!-- End Title -->
 
       <!-- Workshop Cards -->
+
+        <script src="js/select.js" type="text/javascript"></script>
+
         <!-- Row 1 -->
         <div class="row" id="row-cards">
           <div class="col-xs-12 col-sm-6">
@@ -65,23 +71,21 @@ include './global/header.php';
                   <li>Make a basic site in 1 day</li>
                   <li>Introduce yourself to programming</li>
                 </ul>
-              <a href="https://www.google.com" class="btn btn-blue">More Info</a>
-              <a href="https://www.google.com" class="btn">Register Now | $15</a>
+              <a href="https://www.summerofopportunity.com/web-design" class="btn btn-blue">More Info</a>
+              <a href="#register" onclick="select('choice_web_design')" class="btn">Register Now | <?php echo $registration_fee['early'];?></a>
             </div>
           </div>
 
-
           <div class="col-xs-12 col-sm-6">
             <div class="card">
-              <h2>Careers In Medicine</h2>
-             <!-- <p style="margin-bottom:30px;">Listen to industry professionals tell you what it's really like.</p> -->
+              <h2>Academic Success</h2>
                 <ul style="list-style:none; padding-left: 0px;" class="card-list">
-                  <li>Learn how to partake in the medical field as a teen</li>
-                  <li>Understand medical issues in our community</li>
-                  <li>Features: Interactive sessions & multiple speakers</li>
+                  <li>Listen to tips on applying to university</li>
+                  <li>Get personalized feedback on your CV</li>
+                  <li>Learn how to act during an interview</li>
                 </ul>
-              <a href="https://www.google.com" class="btn btn-blue">More Info</a>
-              <a href="https://www.google.com" class="btn">Register Now | $15</a>
+              <a href="https://www.summerofopportunity.com/academic-success" class="btn btn-blue">More Info</a>
+              <a href="#register" onclick="select('choice_academic_success')" class="btn">Register Now | <?php echo $registration_fee['early'];?></a>
             </div>
           </div>
         </div>
@@ -92,26 +96,25 @@ include './global/header.php';
           <div class="card">
             <h2>Soft Skills</h2>
             <ul style="list-style:none; padding-left: 0px;" class="card-list">
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
+                <li>Practice public speaking</li>
+                <li>Learn effective networking</li>
+                <li>Get tips to collaborate effectively</li>
               </ul>
-            <a href="https://www.google.com" class="btn btn-blue">More Info</a>
-            <a href="https://www.google.com" class="btn">Register Now | $15</a>
+            <a href="https://www.summerofopportunity.com/soft-skills" class="btn btn-blue">More Info</a>
+            <a href="#register" onclick="select('choice_soft_skills')" class="btn">Register Now | <?php echo $registration_fee['early'];?></a>
           </div>
         </div>
 
         <div class="col-xs-12 col-sm-6">
           <div class="card">
-            <h2>Academic Success</h2>
-           <!-- <p style="margin-bottom:30px;">Tips and tricks on how to write a university application.</p> -->
+            <h2>Careers In Medicine</h2>
               <ul style="list-style:none; padding-left: 0px;" class="card-list">
-                <li>Listen to tips on applying to university</li>
-                <li>Get personalized feedback on your CV</li>
-                <li>Learn how to act during an interview</li>
+                <li>Learn how to partake in the medical field as a teen</li>
+                <li>Understand medical issues in our community</li>
+                <li>Features: Interactive sessions & multiple speakers</li>
               </ul>
-            <a href="https://www.google.com" class="btn btn-blue">More Info</a>
-            <a href="https://www.google.com" class="btn">Register Now | $15</a>
+            <a href="https://www.summerofopportunity.com/careers-in-medicine" class="btn btn-blue">More Info</a>
+            <a href="#register" onclick="select('choice_careers_in_medicine')" class="btn">Register Now | <?php echo $registration_fee['early'];?></a>
           </div>
         </div>
       </div>
@@ -127,20 +130,31 @@ include './global/header.php';
 
           <div class="col-sm-12">
             <div class="card" id="card-competition" style="border-radius: 15px; padding-top: 33px;">
-              <h1 style="">Business/NonProfit Competition</h2>
-              <p style="margin-bottom:30px;">Make your idea a reality.</p>
-                <div class="row">
-                    <div class="col-sm-6">
-             <a href="https://www.google.com" class="btn btn-blue">More Info</a>
-                        </div>
-                    <div class="col-sm-6">
-              <a href="https://www.google.com" class="btn">Register Now | $15</a>
-                        </div>
-                </div>
+              <!-- Description -->
+              <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                  <h1>Community Initiative Competition</h2>
+                  <p class="cic-description">Make your idea a reality.
+                  <br><br>
+                  The Community Initiative Competition (CIC) is a competition designed to get students involved and taking action in their neighbourhoods. The competition will bring attention to local issues and possible solutions; the best proposal will be awarded with a choice of $500 to take home or $1250 to continue the initiative.
+                  <br><br>
+                  Attending "Soft Skills" will prepare you for the CIC and give you a better chance of winning. Of course, you can choose to attend Soft Skills without participating in the competition.
+                  </p>
+              </div>
+              <!-- End Description -->
 
+              <!-- Buttons -->
+              <div class="row">
+                  <div class="col-sm-6">
+                    <a href="https://www.summerofopportunity.com/competition" class="btn btn-blue">More Info</a>
+                  </div>
+                  <div class="col-sm-6">
+                    <a href="#register" onclick="select('choice_competition')" class="btn">Register Now | <?php echo $registration_fee['competition_early'];?></a>
+                  </div>
+              </div>
+              <!-- End Buttons -->
 
-                <h2 class="text-center" style="color:black;">...and a grand finale with <span style="font-size: 40px;"><u>$1250</u></span> in prizes...</h1>
-
+              <h2 class="text-center" style="color:black;">...and a grand finale with <span style="font-size: 40px;"><u>$1250</u></span> in prize money...</h1>
             </div>
           </div>
         </div>
@@ -288,7 +302,7 @@ include './global/header.php';
 
         <!-- Contact Us Button -->
         <div class="col-md-5" id="mobile-btn-contact">
-          <a href="contact.html" class="btn btn-wire wire-btn-white animated fadeInDown animDelay08" style="display: table;margin: 0 auto;">
+          <a href="https://www.summerofopportunity.com/contact" class="btn btn-wire wire-btn-white animated fadeInDown animDelay08" style="display: table;margin: 0 auto;">
               Contact Us
           </a>
         </div>
