@@ -7,6 +7,7 @@ include 'global/header.php';
   <meta name="description" content="Meet medical professionals and discover whether medicine is for you.">
   <title>Summer of Opportunity | Careers In Medicine</title>
   <meta property="og:title" content="Careers In Medicine | Summer of Opportunity"/>
+  <meta property="og:image" content="https://www.summerofopportunity.com/img/hero-medicine.jpg"/>
 </head>
 
 <body>

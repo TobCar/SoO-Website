@@ -7,6 +7,7 @@ include 'global/header.php';
   <meta name="description" content="Learn how to write a CV and other academic necessities.">
   <title>Summer of Opportunity | Academic Success</title>
   <meta property="og:title" content="Academic Success | Summer of Opportunity"/>
+  <meta property="og:image" content="https://www.summerofopportunity.com/img/hero-academic-success.jpg"/>
 </head>
 
 <body>

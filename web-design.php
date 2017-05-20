@@ -7,6 +7,7 @@ include 'global/header.php';
   <meta name="description" content="HTML & CSS basics for teens. Make a basic website in one day.">
   <title>Summer of Opportunity | Web Design</title>
   <meta property="og:title" content="Web Design | Summer of Opportunity"/>
+  <meta property="og:image" content="https://www.summerofopportunity.com/img/hero-web-design.jpg"/>
 </head>
 
 <body>

@@ -7,6 +7,7 @@ include './global/header.php';
   <meta name="description" content="A summer of events for teenagers at the start of August, hosted by 56 Paper Clips.">
   <title>Summer of Opportunity | Home</title>
   <meta property="og:title" content="The Summer of Opportunity"/>
+  <meta property="og:image" content="https://www.summerofopportunity.com/img/hero.jpg"/>
 </head>
 
 <body>

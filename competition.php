@@ -4,9 +4,10 @@ include 'global/header.php';
 
 <!-- This will display an extra head tag after the header is parsed but is necessary to change the description and title. -->
 <head>
-  <meta name="description" content="HTML & CSS basics for teens. Make a basic website in one day.">
+  <meta name="description" content="Win $1250 to start a nonprofit. August 20, 2017 at HiVE Vancouver.">
   <title>Summer of Opportunity | CIC</title>
   <meta property="og:title" content="Community Initiative Competition | Summer of Opportunity"/>
+  <meta property="og:image" content="https://www.summerofopportunity.com/img/hero-competition.jpg"/>
 </head>
 
 <body>
