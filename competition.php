@@ -66,12 +66,12 @@ include 'global/header.php';
         <p>No one makes it alone. Choose people you are already friends with so you stay together when the going gets rough.</p>
       </div>
       <div class="col-sm-4">
-        <img src="img/sitemap.png" class="img-responsive feature-img"></img>
-        <h2>Identify A Community Issues</h2>
+        <img src="img/lightbulb.png" class="img-responsive feature-img"></img>
+        <h2>Identify A Community Issue</h2>
         <p>Anything you are passionate about or interested in.</p>
       </div>
       <div class="col-sm-4">
-        <img src="img/sitemap.png" class="img-responsive feature-img"></img>
+        <img src="img/writing.png" class="img-responsive feature-img"></img>
         <h2>Develop A Plan</h2>
         <p>It doesn't have to be perfect but it has to be feasible. Bonus points if you use your strenghts.</p>
       </div>
