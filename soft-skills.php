@@ -6,6 +6,7 @@ include 'global/header.php';
 <head>
   <meta name="description" content="Prepare for the Community Initiative Competition. Practice public speaking, networking, and more!">
   <title>Summer of Opportunity | Soft Skills</title>
+  <meta property="og:title" content="Soft Skills | Summer of Opportunity"/>
 </head>
 
 <body>
@@ -21,10 +22,10 @@ include 'global/header.php';
             <h2 class="text-center animated fadeInUp">August 19, 2017</h2>
 
             <h3 class="text-center animated fadeInUp animDelay04">
-                Prepare for LDG's competition
+                <a href="https://www.summerofopportunity.com/competition">Prepare for LDG's competition</a>
             </h3>
 
-            <p class="text-center animated fadeInUp animDelay04">Advice from these workshops will help you win.</p>
+            <p class="text-center animated fadeInUp animDelay04">Advice from these workshops will help you win $1250.</p>
 
             <a href="#register" class="btn-hero btn btn-wire wire-btn-white animated fadeInDown animDelay08">
                 Register Now <?php echo $registration_fee['early'];?>
@@ -42,35 +43,37 @@ include 'global/header.php';
   <div class="container-big text-center">
 
     <h1 class="title">Overview</h1>
-    <p>Description</p>
-
+    <p>Communication/leadership, project management and community organizing
+      <br><br>
+These will be the essential skills focused on creating a good community initiative. Learn from industry experts! Engage in workshop activities, learn through demonstration and personal experiences!
+    </p>
   </div>
   <!-- End Overview Container -->
 
-  <!-- Features Container -->
+  <!-- Workshops Container -->
   <div class="container-big text-center bg-container">
 
-    <h1 class="title">Features</h1>
+    <h1 class="title">Workshops</h1>
 
     <div class="row">
       <div class="col-sm-4">
-        <img src="img/sitemap.png" class="img-responsive feature-img"></img>
-        <h2>Networking</h2>
-        <p>Meet professional instructors and young technology enthusiasts.</p>
+        <img src="img/text-bubble.png" alt="communications" class="img-responsive feature-img"></img>
+        <h2>Communications</h2>
+        <p>Explaining your ideas simply.</p>
       </div>
       <div class="col-sm-4">
-        <img src="img/sitemap.png" class="img-responsive feature-img"></img>
-        <h2>Workshops</h2>
-        <p>Taught by professional instructors.</p>
+        <img src="img/clipboard.png" alt="organizing clipboard" class="img-responsive feature-img"></img>
+        <h2>Community Organizing</h2>
+        <p>Project management for nonprofits.</p>
       </div>
       <div class="col-sm-4">
-        <img src="img/sitemap.png" class="img-responsive feature-img"></img>
-        <h2>Mini-Competition</h2>
-        <p>Team up with your friends and compete to make the best website.</p>
+        <img src="img/people.png" alt="team" class="img-responsive feature-img"></img>
+        <h2>Leadership</h2>
+        <p>Collaborating effectively.</p>
       </div>
     </div>
   </div>
-  <!-- End Features Container -->
+  <!-- End Workshops Container -->
 
   <!-- Fee Includes, Venue Container, and What to Bring -->
   <div class="container text-center" style="padding-top: 30px; padding-bottom: 30px;">
@@ -80,7 +83,7 @@ include 'global/header.php';
       <div class="col-sm-4">
         <h2>Registration | <?php echo $registration_fee['early'];?> Early Bird</h2>
         <p><?php echo $registration_fee['regular'];?> Regular (<?php echo $registration_fee['regular_date'];?>)</p>
-        <h2>Includes lunch and snacks.</h2>
+        <h2>Includes lunch.</h2>
       </div>
       <!-- End Fee Includes -->
 
@@ -95,8 +98,8 @@ include 'global/header.php';
       <!-- What to Bring -->
       <div class="col-sm-4" id="what-to-bring">
         <h2>What To Bring</h2>
-        <p>Laptop</p>
-        <p>Water Bottle</p>
+        <p>Something to write on</p>
+        <p>Water bottle</p>
       </div>
       <!-- End What to Bring -->
     </div>
@@ -104,30 +107,30 @@ include 'global/header.php';
   </div>
   <!-- End Fee Includes, Venue Container, and What to Bring -->
 
-  <!-- What you'll learn Container -->
+  <!-- Features Container -->
   <div class="container-big text-center bg-container">
 
-    <h1 class="title">What You'll Learn</h1>
+    <h1 class="title">Features</h1>
 
     <div class="row">
       <div class="col-sm-4">
-        <img src="img/html.png" alt="HTML" class="img-responsive feature-img"></img>
-        <h2>HTML</h2>
-        <p>Hypertext Markup Language is used in every website.</p>
+        <img src="img/text-bubble-2.png" alt="text bubbles" class="img-responsive feature-img"></img>
+        <h2>Important Opportunities</h2>
+        <p>Discussed with other change-makers.</p>
       </div>
       <div class="col-sm-4">
-        <img src="img/sitemap.png" alt="website structure" class="img-responsive feature-img"></img>
-        <h2>Website Structure</h2>
-        <p>What's a body tag? Come and find out.</p>
-      </div>
-      <div class="col-sm-4">
-        <img src="img/css.png" alt="css" class="img-responsive feature-img"></img>
-        <h2>CSS</h2>
+        <img src="img/knowledge.png" alt="knowledge" class="img-responsive feature-img"></img>
+        <h2>Life Long Skills</h2>
         <p>Cascading style sheets make websites responsive and beautiful.</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="img/network.png" alt="network" class="img-responsive feature-img"></img>
+        <h2>Networking</h2>
+        <p>Find other high-achieving youth. Maybe you'll work together one day.</p>
       </div>
     </div>
   </div>
-  <!-- End What you'll learn Container -->
+  <!-- End Features Container -->
 
   <!-- Schedule and Registration Container -->
   <div class="container-big text-center">
@@ -143,48 +146,36 @@ include 'global/header.php';
       </thead>
       <tbody>
           <tr>
-              <td>9:00AM - 9:15AM</td>
-              <td>Registration</td>
+              <td>9:30AM - 9:45AM</td>
+              <td>Check In</td>
           </tr>
           <tr>
-              <td>9:15AM - 9:30AM</td>
-              <td>Opening Ceremony</td>
+              <td>9:45AM - 10:00AM</td>
+              <td>Opening</td>
           </tr>
           <tr>
-              <td>9:30AM - 10:30AM</td>
-              <td>HTML Workshop PT.1</td>
+              <td>10:00AM - 11:30AM</td>
+              <td>Workshops</td>
           </tr>
           <tr>
-              <td>10:30AM - 10:50AM</td>
-              <td>Snack Break</td>
+              <td>11:30AM - 12:30PM</td>
+              <td>Lunch & Networking</td>
           </tr>
           <tr>
-              <td>10:50AM - 11:20AM</td>
-              <td>HTML Workshop PT.2</td>
+              <td>12:30PM - 2:00PM</td>
+              <td>Workshops</td>
           </tr>
           <tr>
-              <td>11:20AM - 12:20PM</td>
-              <td>CSS Workshop PT.1</td>
+              <td>2:00PM - 2:30PM</td>
+              <td>Break</td>
           </tr>
           <tr>
-              <td>12:20PM - 1:20PM</td>
-              <td>Lunch</td>
+              <td>2:30PM - 4:00PM</td>
+              <td>Workshops</td>
           </tr>
           <tr>
-              <td>1:20PM - 1:50PM</td>
-              <td>CSS Workshop PT.2</td>
-          </tr>
-          <tr>
-              <td>1:50PM - 4:15PM</td>
-              <td>Web Design Competition</td>
-          </tr>
-          <tr>
-              <td>4:15PM - 4:45PM</td>
-              <td>Awards / Games</td>
-          </tr>
-          <tr>
-              <td>4:45PM - 5:00PM</td>
-              <td>Closing Ceremonies</td>
+              <td>4:00PM - 4:30PM</td>
+              <td>Closing + <a href="https://www.summerofopportunity.com/competition">Introduction to the CIC</a></td>
           </tr>
       </tbody>
   </table>

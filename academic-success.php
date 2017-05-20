@@ -6,6 +6,7 @@ include 'global/header.php';
 <head>
   <meta name="description" content="Learn how to write a CV and other academic necessities.">
   <title>Summer of Opportunity | Academic Success</title>
+  <meta property="og:title" content="Academic Success | Summer of Opportunity"/>
 </head>
 
 <body>
@@ -14,17 +15,17 @@ include 'global/header.php';
   ?>
 
   <!-- Hero area -->
-  <section class="hero hero-small hero-soft-skills">
+  <section class="hero hero-small hero-academic-success">
         <div class="col-sm-7">
             <h1 class="text-center animated fadeInUp">Academic Success</h1>
 
             <h2 class="text-center animated fadeInUp">August 12, 2017</h2>
 
             <h3 class="text-center animated fadeInUp animDelay04">
-                [4 Words about event]
+                Scholarships & Post-Secondary Applications. CVs. Interviews.
             </h3>
 
-            <p class="text-center animated fadeInUp animDelay04">[8-9 Words about event]</p>
+            <p class="text-center animated fadeInUp animDelay04">Learn everything you need to succeed in post-secondary!</p>
 
             <a href="#register" class="btn-hero btn btn-wire wire-btn-white animated fadeInDown animDelay08">
                 Register Now <?php echo $registration_fee['early'];?>
@@ -42,35 +43,41 @@ include 'global/header.php';
   <div class="container-big text-center">
 
     <h1 class="title">Overview</h1>
-    <p>Description</p>
+    <p><b>Roadmap to a Winning Application</b><br>
+      Put together an outstanding application for post-secondary or a scholarship!
+      We will cover how to request the fantastic reference letters,how to tackle common essay questions, and how to write a CV that showcases your
+skills. <b>The NSN will also provide you individual feedback on 1 complete application (CV + essays), provided you email us a week in advance at jlou@nsncanada.org.</b>
+<br><br>
+<b>Acing Interviews</b><br>Put your best self forward! We will discuss different types of
+interviews, share tips on how to approach them, and provide responses to common questions.
+<br><br>
+<b>Panel and Networking Sessions with our National Young Leader Mentors</b>
+<br>Learn from our exceptional mentors! We will share insights about our undergraduate, professional, and graduate school experiences.</p>
 
   </div>
   <!-- End Overview Container -->
 
-  <!-- Features Container -->
+  <!-- What you'll learn Container -->
   <div class="container-big text-center bg-container">
 
-    <h1 class="title">Features</h1>
+    <h1 class="title">What You'll Learn</h1>
 
     <div class="row">
       <div class="col-sm-4">
-        <img src="img/sitemap.png" class="img-responsive feature-img"></img>
-        <h2>Networking</h2>
-        <p>Meet professional instructors and young technology enthusiasts.</p>
+        <img src="img/resume.png" alt="HTML" class="img-responsive feature-img"></img>
+        <h2>CV Writing</h2>
       </div>
       <div class="col-sm-4">
-        <img src="img/sitemap.png" class="img-responsive feature-img"></img>
-        <h2>Workshops</h2>
-        <p>Taught by professional instructors.</p>
+        <img src="img/writing.png" alt="website structure" class="img-responsive feature-img"></img>
+        <h2>Essay Writing</h2>
       </div>
       <div class="col-sm-4">
-        <img src="img/sitemap.png" class="img-responsive feature-img"></img>
-        <h2>Mini-Competition</h2>
-        <p>Team up with your friends and compete to make the best website.</p>
+        <img src="img/interview.png" alt="css" class="img-responsive feature-img"></img>
+        <h2>Interview Skills</h2>
       </div>
     </div>
   </div>
-  <!-- End Features Container -->
+  <!-- End What you'll learn Container -->
 
   <!-- Fee Includes, Venue Container, and What to Bring -->
   <div class="container text-center" style="padding-top: 30px; padding-bottom: 30px;">
@@ -80,7 +87,7 @@ include 'global/header.php';
       <div class="col-sm-4">
         <h2>Registration | <?php echo $registration_fee['early'];?> Early Bird</h2>
         <p><?php echo $registration_fee['regular'];?> Regular (<?php echo $registration_fee['regular_date'];?>)</p>
-        <h2>Includes lunch and snacks.</h2>
+        <h2>Includes lunch.</h2>
       </div>
       <!-- End Fee Includes -->
 
@@ -95,8 +102,8 @@ include 'global/header.php';
       <!-- What to Bring -->
       <div class="col-sm-4" id="what-to-bring">
         <h2>What To Bring</h2>
-        <p>Laptop</p>
         <p>Water Bottle</p>
+        <p>A copy of your CV</p>
       </div>
       <!-- End What to Bring -->
     </div>
@@ -104,30 +111,30 @@ include 'global/header.php';
   </div>
   <!-- End Fee Includes, Venue Container, and What to Bring -->
 
-  <!-- What you'll learn Container -->
+  <!-- Features Container -->
   <div class="container-big text-center bg-container">
 
-    <h1 class="title">What You'll Learn</h1>
+    <h1 class="title">Features</h1>
 
     <div class="row">
       <div class="col-sm-4">
-        <img src="img/html.png" alt="HTML" class="img-responsive feature-img"></img>
-        <h2>HTML</h2>
-        <p>Hypertext Markup Language is used in every website.</p>
+        <img src="img/mentorship.png" class="img-responsive feature-img"></img>
+        <h2>Mentorship</h2>
+        <p>Get tailored advice.</p>
       </div>
       <div class="col-sm-4">
-        <img src="img/sitemap.png" alt="website structure" class="img-responsive feature-img"></img>
-        <h2>Website Structure</h2>
-        <p>What's a body tag? Come and find out.</p>
+        <img src="img/connections.png" class="img-responsive feature-img"></img>
+        <h2>Networking</h2>
+        <p>Meet innovators.</p>
       </div>
       <div class="col-sm-4">
-        <img src="img/css.png" alt="css" class="img-responsive feature-img"></img>
-        <h2>CSS</h2>
-        <p>Cascading style sheets make websites responsive and beautiful.</p>
+        <img src="img/class.png" class="img-responsive feature-img"></img>
+        <h2>Workshops</h2>
+        <p>Learn to succeed.</p>
       </div>
     </div>
   </div>
-  <!-- End What you'll learn Container -->
+  <!-- End Features Container -->
 
   <!-- Schedule and Registration Container -->
   <div class="container-big text-center">
@@ -143,48 +150,32 @@ include 'global/header.php';
       </thead>
       <tbody>
           <tr>
-              <td>9:00AM - 9:15AM</td>
-              <td>Registration</td>
+              <td>9:30AM - 9:45AM</td>
+              <td>Check In</td>
           </tr>
           <tr>
-              <td>9:15AM - 9:30AM</td>
-              <td>Opening Ceremony</td>
+              <td>9:45AM - 10:00AM</td>
+              <td>Opening Ceremonies</td>
           </tr>
           <tr>
-              <td>9:30AM - 10:30AM</td>
-              <td>HTML Workshop PT.1</td>
+              <td>10:00AM - 12:00PM</td>
+              <td>Roadmap to a Winning Application</td>
           </tr>
           <tr>
-              <td>10:30AM - 10:50AM</td>
-              <td>Snack Break</td>
+              <td>12:00PM - 1:00PM</td>
+              <td>Lunch/ Networking with National Young Leaders</td>
           </tr>
           <tr>
-              <td>10:50AM - 11:20AM</td>
-              <td>HTML Workshop PT.2</td>
+              <td>1:00PM - 2:30PM</td>
+              <td>Acing Academic Interviews</td>
           </tr>
           <tr>
-              <td>11:20AM - 12:20PM</td>
-              <td>CSS Workshop PT.1</td>
+              <td>2:30PM - 4:00PM</td>
+              <td>Scholarly Writing Workshop</td>
           </tr>
           <tr>
-              <td>12:20PM - 1:20PM</td>
-              <td>Lunch</td>
-          </tr>
-          <tr>
-              <td>1:20PM - 1:50PM</td>
-              <td>CSS Workshop PT.2</td>
-          </tr>
-          <tr>
-              <td>1:50PM - 4:15PM</td>
-              <td>Web Design Competition</td>
-          </tr>
-          <tr>
-              <td>4:15PM - 4:45PM</td>
-              <td>Awards / Games</td>
-          </tr>
-          <tr>
-              <td>4:45PM - 5:00PM</td>
-              <td>Closing Ceremonies</td>
+              <td>4:00 PM - 5:00 PM</td>
+              <td>Q&A With National Young Leaders</td>
           </tr>
       </tbody>
   </table>

@@ -6,6 +6,7 @@ include 'global/header.php';
 <head>
   <meta name="description" content="HTML & CSS basics for teens. Make a basic website in one day.">
   <title>Summer of Opportunity | Web Design</title>
+  <meta property="og:title" content="Web Design | Summer of Opportunity"/>
 </head>
 
 <body>
@@ -14,17 +15,17 @@ include 'global/header.php';
   ?>
 
   <!-- Hero area -->
-  <section class="hero hero-small hero-soft-skills">
+  <section class="hero hero-small hero-web-design">
         <div class="col-sm-7">
             <h1 class="text-center animated fadeInUp">Web Design</h1>
 
             <h2 class="text-center animated fadeInUp">August 5, 2017</h2>
 
             <h3 class="text-center animated fadeInUp animDelay04">
-                [4 Words about event]
+                HTML & CSS Basics
             </h3>
 
-            <p class="text-center animated fadeInUp animDelay04">[8-9 Words about event]</p>
+            <p class="text-center animated fadeInUp animDelay04">The programming languages that run the internet</p>
 
             <a href="#register" class="btn-hero btn btn-wire wire-btn-white animated fadeInDown animDelay08">
                 Register Now <?php echo $registration_fee['early'];?>
@@ -42,7 +43,11 @@ include 'global/header.php';
   <div class="container-big text-center">
 
     <h1 class="title">Overview</h1>
-    <p>Description</p>
+    <p>Have you ever wanted to broadcast your ideas to the internet? Do you think website builders are too simplistic or don't suit your needs? Do you just want to learn more code? Do you enjoy competitions? If you answered yes to any of the questions above, the solution is in sight.
+<br><br>
+This day-long event will teach beginners the basics of HTML and CSS in order to allow ANYONE to develop a fully-fledged, working website. No prior knowledge of ANY programming language is required; the lessons included will be taught by experts in the field of web development.
+<br><br>
+The day will conclude with a mini-competition. The objective will be to design a fully-functioning website in a limited amount of time. The criteria for judging will be aspects of the website's design and functionality, such as User Interface/Experience (UI/UX), and fulfillment of the requirements.</p>
 
   </div>
   <!-- End Overview Container -->
@@ -54,17 +59,17 @@ include 'global/header.php';
 
     <div class="row">
       <div class="col-sm-4">
-        <img src="img/sitemap.png" class="img-responsive feature-img"></img>
+        <img src="img/networking.png" class="img-responsive feature-img"></img>
         <h2>Networking</h2>
         <p>Meet professional instructors and young technology enthusiasts.</p>
       </div>
       <div class="col-sm-4">
-        <img src="img/sitemap.png" class="img-responsive feature-img"></img>
+        <img src="img/workshop.png" class="img-responsive feature-img"></img>
         <h2>Workshops</h2>
         <p>Taught by professional instructors.</p>
       </div>
       <div class="col-sm-4">
-        <img src="img/sitemap.png" class="img-responsive feature-img"></img>
+        <img src="img/competition.png" class="img-responsive feature-img"></img>
         <h2>Mini-Competition</h2>
         <p>Team up with your friends and compete to make the best website.</p>
       </div>
@@ -95,7 +100,7 @@ include 'global/header.php';
       <!-- What to Bring -->
       <div class="col-sm-4" id="what-to-bring">
         <h2>What To Bring</h2>
-        <p>Laptop</p>
+        <p>Laptop + Charger</p>
         <p>Water Bottle</p>
       </div>
       <!-- End What to Bring -->
@@ -144,7 +149,7 @@ include 'global/header.php';
       <tbody>
           <tr>
               <td>9:00AM - 9:15AM</td>
-              <td>Registration</td>
+              <td>Check In</td>
           </tr>
           <tr>
               <td>9:15AM - 9:30AM</td>

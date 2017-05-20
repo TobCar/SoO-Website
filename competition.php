@@ -6,6 +6,7 @@ include 'global/header.php';
 <head>
   <meta name="description" content="HTML & CSS basics for teens. Make a basic website in one day.">
   <title>Summer of Opportunity | CIC</title>
+  <meta property="og:title" content="Community Initiative Competition | Summer of Opportunity"/>
 </head>
 
 <body>
@@ -14,7 +15,7 @@ include 'global/header.php';
   ?>
 
   <!-- Hero area -->
-  <section class="hero hero-small hero-soft-skills">
+  <section class="hero hero-small hero-competition">
         <div class="col-sm-7">
             <h1 class="text-center animated fadeInUp">Community Initiative Competition</h1>
 
@@ -24,7 +25,7 @@ include 'global/header.php';
                 Win $1250 to Start a Non-Profit
             </h3>
 
-            <p class="text-center animated fadeInUp animDelay04">[8-9 Words about event]</p>
+            <p class="text-center animated fadeInUp animDelay04"><a href="https://www.summerofopportunity.com/soft-skills">Attending "Soft Skills" will help you win.</a></p>
 
             <a href="#register" class="btn-hero btn btn-wire wire-btn-white animated fadeInDown animDelay08">
                 Register Now <?php echo $registration_fee['competition_early'];?>
@@ -42,7 +43,12 @@ include 'global/header.php';
   <div class="container-big text-center">
 
     <h1 class="title">Overview</h1>
-    <p>Description</p>
+    <p>Make your idea a reality.
+    <br><br>
+    The Community Initiative Competition (CIC) is a competition designed to get students involved and taking action in their neighbourhoods. The competition will bring attention to local issues and possible solutions; the best proposal will be awarded with a choice of $500 to take home or $1250 to continue the initiative.
+    <br><br>
+    Attending <a href="https://www.summerofopportunity.com/soft-skills">"Soft Skills"</a> will prepare you for the CIC and give you a better chance of winning. Of course, you can choose to attend Soft Skills without participating in the competition.
+    </p>
 
   </div>
   <!-- End Overview Container -->
@@ -50,23 +56,23 @@ include 'global/header.php';
   <!-- Features Container -->
   <div class="container-big text-center bg-container">
 
-    <h1 class="title">Features</h1>
+    <h1 class="title">Each Team Will</h1>
 
     <div class="row">
       <div class="col-sm-4">
-        <img src="img/sitemap.png" class="img-responsive feature-img"></img>
-        <h2>Networking</h2>
-        <p>Meet professional instructors and young technology enthusiasts.</p>
+        <img src="img/people.png" class="img-responsive feature-img"></img>
+        <h2>Have 2-4 Team Members</h2>
+        <p>No one makes it alone. Choose people you are already friends with so you stay together when the going gets rough.</p>
       </div>
       <div class="col-sm-4">
         <img src="img/sitemap.png" class="img-responsive feature-img"></img>
-        <h2>Workshops</h2>
-        <p>Taught by professional instructors.</p>
+        <h2>Identify A Community Issues</h2>
+        <p>Anything you are passionate about or interested in.</p>
       </div>
       <div class="col-sm-4">
         <img src="img/sitemap.png" class="img-responsive feature-img"></img>
-        <h2>Mini-Competition</h2>
-        <p>Team up with your friends and compete to make the best website.</p>
+        <h2>Develop A Plan</h2>
+        <p>It doesn't have to be perfect but it has to be feasible. Bonus points if you use your strenghts.</p>
       </div>
     </div>
   </div>
@@ -95,7 +101,7 @@ include 'global/header.php';
       <!-- What to Bring -->
       <div class="col-sm-4" id="what-to-bring">
         <h2>What To Bring</h2>
-        <p>Laptop</p>
+        <p>Laptop + Charger</p>
         <p>Water Bottle</p>
       </div>
       <!-- End What to Bring -->
@@ -107,23 +113,23 @@ include 'global/header.php';
   <!-- What you'll learn Container -->
   <div class="container-big text-center bg-container">
 
-    <h1 class="title">What You'll Learn</h1>
+    <h1 class="title">What You'll Win</h1>
 
     <div class="row">
       <div class="col-sm-4">
-        <img src="img/html.png" alt="HTML" class="img-responsive feature-img"></img>
-        <h2>HTML</h2>
-        <p>Hypertext Markup Language is used in every website.</p>
+        <img src="img/ldg-logo.png" alt="LDG Logo" class="img-responsive feature-img"></img>
+        <h2>Mentorship</h2>
+        <p>LDG will advise you and help run your organization.</p>
       </div>
       <div class="col-sm-4">
-        <img src="img/sitemap.png" alt="website structure" class="img-responsive feature-img"></img>
-        <h2>Website Structure</h2>
-        <p>What's a body tag? Come and find out.</p>
+        <img src="img/money.png" alt="prize money" class="img-responsive feature-img"></img>
+        <h2>$1250</h2>
+        <p>To help execute the initiative.</p>
       </div>
       <div class="col-sm-4">
-        <img src="img/css.png" alt="css" class="img-responsive feature-img"></img>
-        <h2>CSS</h2>
-        <p>Cascading style sheets make websites responsive and beautiful.</p>
+        <img src="img/connections.png" alt="connections" class="img-responsive feature-img"></img>
+        <h2>Connections</h2>
+        <p>LDG can connect you with people to help grow your initiative.</p>
       </div>
     </div>
   </div>
@@ -143,8 +149,8 @@ include 'global/header.php';
       </thead>
       <tbody>
           <tr>
-              <td>9:00AM - 9:15AM</td>
-              <td>Registration</td>
+              <td>9:30AM - 9:45AM</td>
+              <td>Check In</td>
           </tr>
           <tr>
               <td>9:15AM - 9:30AM</td>

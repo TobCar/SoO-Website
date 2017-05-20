@@ -6,6 +6,7 @@ include 'global/header.php';
 <head>
   <meta name="description" content="Meet medical professionals and discover whether medicine is for you.">
   <title>Summer of Opportunity | Careers In Medicine</title>
+  <meta property="og:title" content="Careers In Medicine | Summer of Opportunity"/>
 </head>
 
 <body>
@@ -14,17 +15,17 @@ include 'global/header.php';
   ?>
 
   <!-- Hero area -->
-  <section class="hero hero-small hero-soft-skills">
+  <section class="hero hero-small hero-medicine">
         <div class="col-sm-7">
             <h1 class="text-center animated fadeInUp">Careers In Medicine</h1>
 
             <h2 class="text-center animated fadeInUp">August 13, 2017</h2>
 
             <h3 class="text-center animated fadeInUp animDelay04">
-                [4 Words about event]
+                Your path to medicine
             </h3>
 
-            <p class="text-center animated fadeInUp animDelay04">[8-9 Words about event]</p>
+            <p class="text-center animated fadeInUp animDelay04">Exclusive information from those active in the medical field</p>
 
             <a href="#register" class="btn-hero btn btn-wire wire-btn-white animated fadeInDown animDelay08">
                 Register Now <?php echo $registration_fee['early'];?>
@@ -54,19 +55,16 @@ include 'global/header.php';
 
     <div class="row">
       <div class="col-sm-4">
-        <img src="img/sitemap.png" class="img-responsive feature-img"></img>
-        <h2>Networking</h2>
-        <p>Meet medical professionals and discuss career options.</p>
+        <img src="img/person-bubble.png" class="img-responsive feature-img"></img>
+        <h2>Keynote Speakers</h2>
       </div>
       <div class="col-sm-4">
-        <img src="img/sitemap.png" class="img-responsive feature-img"></img>
-        <h2>Workshops</h2>
-        <p>Taught by professional instructors.</p>
+        <img src="img/medical-bag.png" class="img-responsive feature-img"></img>
+        <h2>Volunteer Opportunities</h2>
       </div>
       <div class="col-sm-4">
-        <img src="img/sitemap.png" class="img-responsive feature-img"></img>
-        <h2>Mini-Competition</h2>
-        <p>Team up with your friends and compete to make the best website.</p>
+        <img src="img/text-bubble.png" class="img-responsive feature-img"></img>
+        <h2>Q&A Sessions</h2>
       </div>
     </div>
   </div>
@@ -80,7 +78,7 @@ include 'global/header.php';
       <div class="col-sm-4">
         <h2>Registration | <?php echo $registration_fee['early'];?> Early Bird</h2>
         <p><?php echo $registration_fee['regular'];?> Regular (<?php echo $registration_fee['regular_date'];?>)</p>
-        <h2>Includes lunch and snacks.</h2>
+        <h2>Includes lunch.</h2>
       </div>
       <!-- End Fee Includes -->
 
@@ -95,8 +93,9 @@ include 'global/header.php';
       <!-- What to Bring -->
       <div class="col-sm-4" id="what-to-bring">
         <h2>What To Bring</h2>
-        <p>Laptop</p>
-        <p>Water Bottle</p>
+        <p>Something to take notes on</p>
+        <p>Water bottle</p>
+        <p>An eager mind</p>
       </div>
       <!-- End What to Bring -->
     </div>
@@ -111,19 +110,19 @@ include 'global/header.php';
 
     <div class="row">
       <div class="col-sm-4">
-        <img src="img/html.png" alt="HTML" class="img-responsive feature-img"></img>
-        <h2>HTML</h2>
-        <p>Hypertext Markup Language is used in every website.</p>
+        <img src="img/like.png" alt="like" class="img-responsive feature-img"></img>
+        <h2>Practical Advice</h2>
+        <p>Firsthand experience from medical professionals.</p>
       </div>
       <div class="col-sm-4">
-        <img src="img/sitemap.png" alt="website structure" class="img-responsive feature-img"></img>
-        <h2>Website Structure</h2>
-        <p>What's a body tag? Come and find out.</p>
+        <img src="img/location.png" alt="location" class="img-responsive feature-img"></img>
+        <h2>Pursuing A Medical Career</h2>
+        <p>As explained by proffesionals who did it.</p>
       </div>
       <div class="col-sm-4">
-        <img src="img/css.png" alt="css" class="img-responsive feature-img"></img>
-        <h2>CSS</h2>
-        <p>Cascading style sheets make websites responsive and beautiful.</p>
+        <img src="img/lightbulb.png" alt="lightbulb" class="img-responsive feature-img"></img>
+        <h2>Impactful Ideas</h2>
+        <p>Ways to make a difference as a teenager.</p>
       </div>
     </div>
   </div>
@@ -143,48 +142,36 @@ include 'global/header.php';
       </thead>
       <tbody>
           <tr>
-              <td>9:00AM - 9:15AM</td>
-              <td>Registration</td>
+              <td>9:30AM - 9:45AM</td>
+              <td>Check In</td>
           </tr>
           <tr>
-              <td>9:15AM - 9:30AM</td>
+              <td>9:45AM - 10:00AM</td>
               <td>Opening Ceremony</td>
           </tr>
           <tr>
-              <td>9:30AM - 10:30AM</td>
-              <td>HTML Workshop PT.1</td>
+              <td>10:00AM - 10:40AM</td>
+              <td>The Road to Medicine</td>
           </tr>
           <tr>
-              <td>10:30AM - 10:50AM</td>
-              <td>Snack Break</td>
+              <td>10:40AM - 11:20AM</td>
+              <td>Teen Involvement</td>
           </tr>
           <tr>
-              <td>10:50AM - 11:20AM</td>
-              <td>HTML Workshop PT.2</td>
+              <td>11:20AM - 12:00PM</td>
+              <td>Impact on Families</td>
           </tr>
           <tr>
-              <td>11:20AM - 12:20PM</td>
-              <td>CSS Workshop PT.1</td>
+              <td>12:00PM - 12:45PM</td>
+              <td>Lunch Break</td>
           </tr>
           <tr>
-              <td>12:20PM - 1:20PM</td>
-              <td>Lunch</td>
+              <td>12:45PM - 1:30PM</td>
+              <td>Workshops</td>
           </tr>
           <tr>
-              <td>1:20PM - 1:50PM</td>
-              <td>CSS Workshop PT.2</td>
-          </tr>
-          <tr>
-              <td>1:50PM - 4:15PM</td>
-              <td>Web Design Competition</td>
-          </tr>
-          <tr>
-              <td>4:15PM - 4:45PM</td>
-              <td>Awards / Games</td>
-          </tr>
-          <tr>
-              <td>4:45PM - 5:00PM</td>
-              <td>Closing Ceremonies</td>
+              <td>1:30PM - 2:00PM</td>
+              <td>Q&A Panel</td>
           </tr>
       </tbody>
   </table>
