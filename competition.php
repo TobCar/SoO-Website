@@ -154,44 +154,32 @@ include 'global/header.php';
               <td>Check In</td>
           </tr>
           <tr>
-              <td>9:15AM - 9:30AM</td>
-              <td>Opening Ceremony</td>
+              <td>9:45AM - 10:00AM</td>
+              <td>Opening</td>
           </tr>
           <tr>
-              <td>9:30AM - 10:30AM</td>
-              <td>HTML Workshop PT.1</td>
+              <td>10:00AM - 10:15AM</td>
+              <td>Keynote Speaker</td>
           </tr>
           <tr>
-              <td>10:30AM - 10:50AM</td>
-              <td>Snack Break</td>
+              <td>10:15AM - 1:00PM</td>
+              <td>Competition</td>
           </tr>
           <tr>
-              <td>10:50AM - 11:20AM</td>
-              <td>HTML Workshop PT.2</td>
-          </tr>
-          <tr>
-              <td>11:20AM - 12:20PM</td>
-              <td>CSS Workshop PT.1</td>
-          </tr>
-          <tr>
-              <td>12:20PM - 1:20PM</td>
+              <td>1:00PM - 1:45PM</td>
               <td>Lunch</td>
           </tr>
           <tr>
-              <td>1:20PM - 1:50PM</td>
-              <td>CSS Workshop PT.2</td>
+              <td>1:45PM - 3:00PM</td>
+              <td>Presenting To Judges</td>
           </tr>
           <tr>
-              <td>1:50PM - 4:15PM</td>
-              <td>Web Design Competition</td>
+              <td>3:00PM - 4:00PM</td>
+              <td>Finalist Presentations</td>
           </tr>
           <tr>
-              <td>4:15PM - 4:45PM</td>
-              <td>Awards / Games</td>
-          </tr>
-          <tr>
-              <td>4:45PM - 5:00PM</td>
-              <td>Closing Ceremonies</td>
+              <td>4:00PM - 4:30PM</td>
+              <td>Awards and Closing Ceremonies</td>
           </tr>
       </tbody>
   </table>

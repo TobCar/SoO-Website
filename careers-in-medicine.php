@@ -164,7 +164,7 @@ include 'global/header.php';
           </tr>
           <tr>
               <td>12:00PM - 12:45PM</td>
-              <td>Lunch Break</td>
+              <td>Lunch</td>
           </tr>
           <tr>
               <td>12:45PM - 1:30PM</td>
