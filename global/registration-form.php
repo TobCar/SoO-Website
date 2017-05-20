@@ -153,7 +153,7 @@ document.getElementById('submit').addEventListener('click', function(e) {
     const competitionFee = <?php echo $stripe['comp_fee'];?>;
 
     if( $('#choice_all').is(":checked") ) {
-      registrationCost = eventFee*3 + competitionFee;
+      registrationCost = eventFee*4;
     } else {
       if( $('#choice_web_design').is(":checked") ) {
         registrationCost += eventFee;
