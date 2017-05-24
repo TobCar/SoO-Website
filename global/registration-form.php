@@ -24,7 +24,7 @@
           </div>
           <div class="row">
             <div class="col-xs-6">
-              <input id="choice_competition" type="checkbox"><p class="checkbox_text_choice">Business Competition (<?php echo $registration_fee['competition_early'];?>)</p>
+              <input id="choice_competition" type="checkbox"><p class="checkbox_text_choice">Initiative Competition (<?php echo $registration_fee['competition_early'];?>)</p>
             </div>
             <div class="col-xs-6">
               <input id="choice_all" type="checkbox"><p class="checkbox_text_choice">All Events (<?php echo $registration_fee['all'];?>) BEST DEAL</p>
