@@ -23,7 +23,7 @@ include 'global/header.php';
             <h2 class="text-center animated fadeInUp">August 12, 2017</h2>
 
             <h3 class="text-center animated fadeInUp animDelay04">
-                Scholarships & Post-Secondary Applications. CVs. Interviews.
+                Scholarships & Post-Secondary Applications. Resum&#233;s. Interviews.
             </h3>
 
             <p class="text-center animated fadeInUp animDelay04">Learn everything you need to succeed in post-secondary!</p>
@@ -47,7 +47,9 @@ include 'global/header.php';
     <p><b>Roadmap to a Winning Application</b><br>
       Put together an outstanding application for post-secondary or a scholarship!
       We will cover how to request the fantastic reference letters,how to tackle common essay questions, and how to write a CV that showcases your
-skills. <b>The NSN will also provide you individual feedback on 1 complete application (CV + essays), provided you email us a week in advance at jlou@nsncanada.org.</b>
+skills.
+<br><br>
+<b>The NSN will also provide feedback on 1 CV/resum&#233; and 1 university application essay, provided you email us a week in advance at jlou@nsncanada.org.</b>
 <br><br>
 <b>Acing Interviews</b><br>Put your best self forward! We will discuss different types of
 interviews, share tips on how to approach them, and provide responses to common questions.
@@ -66,7 +68,7 @@ interviews, share tips on how to approach them, and provide responses to common 
     <div class="row">
       <div class="col-sm-4">
         <img src="img/resume.png" alt="HTML" class="img-responsive feature-img"></img>
-        <h2>CV Writing</h2>
+        <h2>Resum&#233; Writing</h2>
       </div>
       <div class="col-sm-4">
         <img src="img/writing.png" alt="website structure" class="img-responsive feature-img"></img>
