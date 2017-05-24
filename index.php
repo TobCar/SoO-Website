@@ -63,7 +63,7 @@ include './global/header.php';
         <script src="js/select.js" type="text/javascript"></script>
 
         <!-- Row 1 -->
-        <div class="row" id="row-cards">
+        <div class="row">
           <div class="col-xs-12 col-sm-6">
             <div class="card">
               <h2>Web Design</h2>
@@ -92,7 +92,7 @@ include './global/header.php';
         </div>
 
       <!-- Row 2 -->
-      <div class="row" id="row-cards">
+      <div class="row">
         <div class="col-xs-12 col-sm-6">
           <div class="card">
             <h2>Soft Skills</h2>
@@ -126,21 +126,21 @@ include './global/header.php';
     <!-- Competitions Section -->
       <section id="competition" class="box">
 
-        <!-- Competition Cards -->
+        <!-- Competition Card -->
         <div class="row" >
-
           <div class="col-sm-12">
             <div class="card" id="card-competition" style="border-radius: 15px; padding-top: 33px;">
               <!-- Description -->
               <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
-                  <h1>Community Initiative Competition</h2>
+                  <h2>Community Initiative Competition</h2>
                   <p class="cic-description">Make your idea a reality.
                   <br><br>
                   The Community Initiative Competition (CIC) is a competition designed to get students involved and taking action in their neighbourhoods. The competition will bring attention to local issues and possible solutions; the best proposal will be awarded with a choice of $500 to take home or $1250 to continue the initiative.
                   <br><br>
                   Attending "Soft Skills" will prepare you for the CIC and give you a better chance of winning. Of course, you can choose to attend Soft Skills without participating in the competition.
                   </p>
+                </div>
               </div>
               <!-- End Description -->
 
@@ -155,7 +155,7 @@ include './global/header.php';
               </div>
               <!-- End Buttons -->
 
-              <h2 class="text-center" style="color:black;">...and a grand finale with <span style="font-size: 40px;"><u>$1250</u></span> in prize money...</h1>
+              <h2 class="text-center" style="color:black;">...and a grand finale with <span style="font-size: 40px;"><u>$1250</u></span> in prize money...</h2>
             </div>
           </div>
         </div>
@@ -204,23 +204,23 @@ include './global/header.php';
         <li>2</li>
         <li>3</li>
         <li>4</li>
-        <li class="used"><img src="img/inova-small.png"></img><br>Web Design<br>5</li>
+        <li class="used"><img src="img/inova-small.png"><br>Web Design<br>5</li>
         <li>6</li>
         <li>7</li>
         <li>8</li>
         <li>9</li>
         <li>10</li>
         <li>11</li>
-        <li class="used"><img src="img/nsn-small.png"></img><br>Academic Success<br>12</li>
-        <li class="used"><img src="img/wyns-small.png"></img><br>Careers In Medicine<br>13</li>
+        <li class="used"><img src="img/nsn-small.png"><br>Academic Success<br>12</li>
+        <li class="used"><img src="img/wyns-small.png"><br>Careers In Medicine<br>13</li>
 
         <li>14</li>
         <li>15</li>
         <li>16</li>
         <li>17</li>
         <li>18</li>
-        <li class="used"><img src="img/ldg-small.png"></img><br>Soft Skills<br>19</li>
-        <li class="used"><img src="img/ldg-small.png"></img><br>Community Initiative Comp.<br>20</li>
+        <li class="used"><img src="img/ldg-small.png"><br>Soft Skills<br>19</li>
+        <li class="used"><img src="img/ldg-small.png"><br>Community Initiative Comp.<br>20</li>
     </ul>
     <!-- End August calendar -->
 
@@ -241,7 +241,7 @@ include './global/header.php';
     </div>
 
     <div class="row">
-      <h2>Event Organizers</p>
+      <h2>Event Organizers</h2>
       <div class="col-sm-3">
         <img src="img/inova-logo.png" alt="Inova Logo" class="img-responsive feature-img">
         <h3>Inova Computer Association</h3>
@@ -255,7 +255,7 @@ include './global/header.php';
         <h3>Wish Youth Network Society</h3>
       </div>
       <div class="col-sm-3">
-        <img src="img/ldg-logo.png" alt="LDG Logo" class="img-responsive feature-img"></img>
+        <img src="img/ldg-logo.png" alt="LDG Logo" class="img-responsive feature-img">
         <h3>Local Development Group</h3>
       </div>
     </div>
