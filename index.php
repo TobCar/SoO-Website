@@ -128,7 +128,7 @@ include './global/header.php';
 
         <!-- Competition Card -->
         <div class="row" >
-          <div class="col-sm-12">
+          <div class="col-xs-12">
             <div class="card" id="card-competition" style="border-radius: 15px; padding-top: 33px;">
               <!-- Description -->
               <div class="row">
@@ -159,7 +159,7 @@ include './global/header.php';
             </div>
           </div>
         </div>
-        <!-- End Competition Cards -->
+        <!-- End Competition Card -->
 
       </section>
     <!-- End Competitions Section -->
