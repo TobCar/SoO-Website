@@ -44,7 +44,11 @@ include 'global/header.php';
   <div class="container-big text-center">
 
     <h1 class="title">Overview</h1>
-    <p>Description</p>
+    <p> Dreaming of a future career in the medical field? Want to get involved now but don’t know how?
+<br><br>
+	Careers In Medicine is a day dedicated to <b>answering your questions about entering the medical field</b> and informing you of practical ways you can start participating in the field now as youth. The event will include three insightful keynote speakers, an educational and practical workshop session on basic first aid, and an exclusive opportunity to have an interactive Q&A session with experts from the field.
+<br><br>
+	Join us for a valuable educational experience, networking with like-minded youth and to learn about the greater medical issues in our community. </p>
 
   </div>
   <!-- End Overview Container -->

@@ -122,7 +122,7 @@ These will be the essential skills focused on creating a good community initiati
       <div class="col-sm-4">
         <img src="img/knowledge.png" alt="knowledge" class="img-responsive feature-img"></img>
         <h2>Life Long Skills</h2>
-        <p>Cascading style sheets make websites responsive and beautiful.</p>
+        <p>Business skills transfer to any field.</p>
       </div>
       <div class="col-sm-4">
         <img src="img/network.png" alt="network" class="img-responsive feature-img"></img>
