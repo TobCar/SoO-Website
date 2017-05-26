@@ -431,15 +431,15 @@ a, .navbar-brand {
   margin-bottom: 200px;
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width:830px) {
   .cic-description {
-    margin-bottom: 240px;
+    margin-bottom: 260px;
   }
 }
 
 @media screen and (max-width:480px) {
   .cic-description {
-    margin-bottom: 300px;
+    margin-bottom: 320px;
   }
 }
 

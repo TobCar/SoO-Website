@@ -67,6 +67,7 @@ include './global/header.php';
           <div class="col-xs-12 col-sm-6">
             <div class="card">
               <h2>Web Design</h2>
+              <p>August 5</p>
               <ul style="list-style:none; padding-left: 0px;" class="card-list">
                   <li>Learn HTML & CSS</li>
                   <li>Make a basic site in 1 day</li>
@@ -80,6 +81,7 @@ include './global/header.php';
           <div class="col-xs-12 col-sm-6">
             <div class="card">
               <h2>Academic Success</h2>
+              <p>August 12</p>
                 <ul style="list-style:none; padding-left: 0px;" class="card-list">
                   <li>Listen to tips on applying to university</li>
                   <li>Get personalized feedback on your CV</li>
@@ -95,20 +97,8 @@ include './global/header.php';
       <div class="row">
         <div class="col-xs-12 col-sm-6">
           <div class="card">
-            <h2>Soft Skills</h2>
-            <ul style="list-style:none; padding-left: 0px;" class="card-list">
-                <li>Practice public speaking</li>
-                <li>Learn effective networking</li>
-                <li>Get tips to collaborate effectively</li>
-              </ul>
-            <a href="https://www.summerofopportunity.com/soft-skills" class="btn btn-blue">More Info</a>
-            <a href="#register" onclick="select('choice_soft_skills')" class="btn">Register Now | <?php echo $registration_fee['early'];?></a>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-6">
-          <div class="card">
             <h2>Careers In Medicine</h2>
+            <p>August 13</p>
               <ul style="list-style:none; padding-left: 0px;" class="card-list">
                 <li>Learn how to partake in the medical field as a teen</li>
                 <li>Understand medical issues in our community</li>
@@ -116,6 +106,20 @@ include './global/header.php';
               </ul>
             <a href="https://www.summerofopportunity.com/careers-in-medicine" class="btn btn-blue">More Info</a>
             <a href="#register" onclick="select('choice_careers_in_medicine')" class="btn">Register Now | <?php echo $registration_fee['early'];?></a>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6">
+          <div class="card">
+            <h2>Soft Skills</h2>
+            <p>August 19</p>
+            <ul style="list-style:none; padding-left: 0px;" class="card-list">
+                <li>Practice public speaking</li>
+                <li>Learn effective networking</li>
+                <li>Get tips to collaborate effectively</li>
+              </ul>
+            <a href="https://www.summerofopportunity.com/soft-skills" class="btn btn-blue">More Info</a>
+            <a href="#register" onclick="select('choice_soft_skills')" class="btn">Register Now | <?php echo $registration_fee['early'];?></a>
           </div>
         </div>
       </div>
@@ -134,7 +138,7 @@ include './global/header.php';
               <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
                   <h2>Community Initiative Competition</h2>
-                  <p class="cic-description">Make your idea a reality.
+                  <p class="cic-description">August 20<br>Make your idea a reality.
                   <br><br>
                   The Community Initiative Competition (CIC) is a competition designed to get students involved and taking action in their neighbourhoods. The competition will bring attention to local issues and possible solutions; the best proposal will be awarded with a choice of $500 to take home or $1250 to continue the initiative.
                   <br><br>
