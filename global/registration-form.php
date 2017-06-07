@@ -19,13 +19,10 @@
               <input id="choice_careers_in_medicine" type="checkbox"><p class="checkbox_text_choice">Careers In Medicine (<?php echo $registration_fee['early'];?>)</p>
             </div>
             <div class="col-xs-6">
-              <input id="choice_soft_skills" type="checkbox"><p class="checkbox_text_choice">Soft Skills (<?php echo $registration_fee['early'];?>)</p>
+              <input id="choice_competition" type="checkbox"><p class="checkbox_text_choice">Soft Skills | CIC (<?php echo $registration_fee['early'];?>)</p>
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-6">
-              <input id="choice_competition" type="checkbox"><p class="checkbox_text_choice">Initiative Competition (<?php echo $registration_fee['competition_early'];?>)</p>
-            </div>
             <div class="col-xs-6">
               <input id="choice_all" type="checkbox"><p class="checkbox_text_choice">All Events (<?php echo $registration_fee['all'];?>) BEST DEAL</p>
             </div>
@@ -153,7 +150,7 @@ document.getElementById('submit').addEventListener('click', function(e) {
     const competitionFee = <?php echo $stripe['comp_fee'];?>;
 
     if( $('#choice_all').is(":checked") ) {
-      registrationCost = eventFee*4;
+      registrationCost = eventFee*3 + 500;
     } else {
       if( $('#choice_web_design').is(":checked") ) {
         registrationCost += eventFee;

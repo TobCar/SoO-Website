@@ -4,9 +4,9 @@ include 'global/header.php';
 
 <!-- This will display an extra head tag after the header is parsed but is necessary to change the description and title. -->
 <head>
-  <meta name="description" content="Win $1250 to start a nonprofit. August 20, 2017 at HiVE Vancouver.">
-  <title>Summer of Opportunity | CIC</title>
-  <meta property="og:title" content="Community Initiative Competition | Summer of Opportunity"/>
+  <meta name="description" content="Project management for teens. Win $1000 to start a nonprofit. August 19, 2017 at HiVE Vancouver.">
+  <title>Summer of Opportunity | Soft Skills | CIC</title>
+  <meta property="og:title" content="Soft Skills | Community Initiative Competition | Summer of Opportunity"/>
   <meta property="og:image" content="https://www.summerofopportunity.com/img/hero-competition.jpg"/>
 </head>
 
@@ -18,18 +18,18 @@ include 'global/header.php';
   <!-- Hero area -->
   <section class="hero hero-small hero-competition">
         <div class="col-sm-7">
-            <h1 class="text-center animated fadeInUp">Community Initiative Competition</h1>
+            <h1 class="text-center animated fadeInUp">Soft Skills & Community Initiative Competition</h1>
 
-            <h2 class="text-center animated fadeInUp">August 20, 2017</h2>
+            <h2 class="text-center animated fadeInUp">August 19, 2017</h2>
 
             <h3 class="text-center animated fadeInUp animDelay04">
-                Win $1250 to Start a Non-Profit
+                Win $1000 to Start a Non-Profit
             </h3>
 
-            <p class="text-center animated fadeInUp animDelay04"><a href="https://www.summerofopportunity.com/soft-skills">Attending "Soft Skills" will help you win.</a></p>
+            <p class="text-center animated fadeInUp animDelay04">Acquire critical project management skills.</p>
 
             <a href="#register" class="btn-hero btn btn-wire wire-btn-white animated fadeInDown animDelay08">
-                Register Now <?php echo $registration_fee['competition_early'];?>
+                Register Now <?php echo $registration_fee['early'];?>
             </a>
         </div>
 
@@ -44,17 +44,15 @@ include 'global/header.php';
   <div class="container-big text-center">
 
     <h1 class="title">Overview</h1>
-    <p>Make your idea a reality.
+    <p>Learn the skills necessary to run initiatives in your community and organize any project effectively through a variety of workshops. Then, receive advice on crafting good presentations and good public speaking habits to prepare for the afternoon.
     <br><br>
-    The Community Initiative Competition (CIC) is a competition designed to get students involved and taking action in their neighbourhoods. The competition will bring attention to local issues and possible solutions; the best proposal will be awarded with a choice of $500 to take home or $1250 to continue the initiative.
-    <br><br>
-    Attending <a href="https://www.summerofopportunity.com/soft-skills">"Soft Skills"</a> will prepare you for the CIC and give you a better chance of winning. Of course, you can choose to attend Soft Skills without participating in the competition.
+    In the afternoon participate in the Community Initiative Competition (CIC) to pitch your idea to take action in your neighbourhood. The competition will bring attention to local issues and possible solutions; the best proposal will be awarded with a choice of $500 to take home or $1000 to continue the initiative.
     </p>
 
   </div>
   <!-- End Overview Container -->
 
-  <!-- Features Container -->
+  <!-- Team Container -->
   <div class="container-big text-center bg-container">
 
     <h1 class="title">Each Team Will</h1>
@@ -77,7 +75,7 @@ include 'global/header.php';
       </div>
     </div>
   </div>
-  <!-- End Features Container -->
+  <!-- End Team Container -->
 
   <!-- Fee Includes, Venue Container, and What to Bring -->
   <div class="container text-center" style="padding-top: 30px; padding-bottom: 30px;">
@@ -85,8 +83,8 @@ include 'global/header.php';
     <div class="row">
       <!-- Fee Includes -->
       <div class="col-sm-4">
-        <h2>Registration | <?php echo $registration_fee['competition_early'];?> Early Bird</h2>
-        <p><?php echo $registration_fee['competition_regular'];?> Regular (<?php echo $registration_fee['regular_date'];?>)</p>
+        <h2>Registration | <?php echo $registration_fee['early'];?> Early Bird</h2>
+        <p><?php echo $registration_fee['regular'];?> Regular (<?php echo $registration_fee['regular_date'];?>)</p>
         <h2>Includes lunch and snacks.</h2>
       </div>
       <!-- End Fee Includes -->
@@ -124,7 +122,7 @@ include 'global/header.php';
       </div>
       <div class="col-sm-4">
         <img src="img/money.png" alt="prize money" class="img-responsive feature-img"></img>
-        <h2>$1250</h2>
+        <h2>$1000</h2>
         <p>To help execute the initiative.</p>
       </div>
       <div class="col-sm-4">
@@ -150,36 +148,44 @@ include 'global/header.php';
       </thead>
       <tbody>
           <tr>
-              <td>9:30AM - 9:45AM</td>
-              <td>Check In</td>
+              <td>9:00AM - 9:15AM</td>
+              <td>Check In and Networking</td>
           </tr>
           <tr>
-              <td>9:45AM - 10:00AM</td>
+              <td>9:15AM - 9:30AM</td>
               <td>Opening</td>
           </tr>
           <tr>
-              <td>10:00AM - 10:15AM</td>
-              <td>Keynote Speaker</td>
+              <td>9:30AM - 11:00AM</td>
+              <td>Workshops</td>
           </tr>
           <tr>
-              <td>10:15AM - 1:00PM</td>
-              <td>Competition</td>
+              <td>11:00AM - 11:45AM</td>
+              <td>Lunch and Networking</td>
           </tr>
           <tr>
-              <td>1:00PM - 1:45PM</td>
-              <td>Lunch</td>
+              <td>11:45AM - 1:15PM</td>
+              <td>Workshops</td>
           </tr>
           <tr>
-              <td>1:45PM - 3:00PM</td>
-              <td>Presenting To Judges</td>
+              <td>1:15PM - 1:30PM</td>
+              <td>CIC Introduction</td>
           </tr>
           <tr>
-              <td>3:00PM - 4:00PM</td>
-              <td>Finalist Presentations</td>
+              <td>1:30PM - 3:00PM</td>
+              <td>Competition Prep</td>
           </tr>
           <tr>
-              <td>4:00PM - 4:30PM</td>
-              <td>Awards and Closing Ceremonies</td>
+              <td>3:00PM - 4:30PM</td>
+              <td>Teams Present To Judges</td>
+          </tr>
+          <tr>
+              <td>4:30PM - 5:30PM</td>
+              <td>Finalist Presentation</td>
+          </tr>
+          <tr>
+              <td>5:30PM - 6:00PM</td>
+              <td>Awards Ceremony and Closing</td>
           </tr>
       </tbody>
   </table>

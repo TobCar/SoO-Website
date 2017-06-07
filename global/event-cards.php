@@ -4,7 +4,7 @@
 
   <!-- First Row of Event Cards -->
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-6">
       <a href="https://www.summerofopportunity.com/web-design">
         <div class="all-events-card">
           <img src="img/hero-web-design.jpg" class="img-responsive">
@@ -13,7 +13,7 @@
         </div>
       </a>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-6">
       <a href="https://www.summerofopportunity.com/academic-success">
         <div class="all-events-card">
           <img src="img/hero-academic-success.jpg" class="img-responsive">
@@ -22,7 +22,11 @@
         </div>
       </a>
     </div>
-    <div class="col-md-4">
+  </div>
+
+  <!-- Second Row of Event Cards -->
+  <div class="row">
+    <div class="col-md-6">
       <a href="https://www.summerofopportunity.com/careers-in-medicine">
         <div class="all-events-card">
           <img src="img/hero-medicine.jpg" class="img-responsive">
@@ -31,24 +35,11 @@
         </div>
       </a>
     </div>
-  </div>
-
-  <!-- Second Row of Event Cards -->
-  <div class="row">
-    <div class="col-md-offset-2 col-md-4">
-      <a href="https://www.summerofopportunity.com/soft-skills">
-        <div class="all-events-card">
-          <img src="img/hero-soft-skills.jpg" class="img-responsive">
-          <h2>Soft Skills</h2>
-          <p>August 19</p>
-        </div>
-      </a>
-    </div>
-    <div class="col-md-4">
+    <div class="col-md-6">
       <a href="https://www.summerofopportunity.com/competition">
         <div class="all-events-card">
           <img src="img/hero-competition.jpg" class="img-responsive">
-          <h2>Initiative Competition</h2>
+          <h2>Soft Skills | CIC</h2>
           <p>August 20</p>
         </div>
       </a>

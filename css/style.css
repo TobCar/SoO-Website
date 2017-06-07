@@ -378,7 +378,7 @@ a, .navbar-brand {
   text-align: center;
 }
 
-.workshops, #competition p {
+.workshops {
   width: 100%;
   height: 0px; /* Scale height to fit text */
 }

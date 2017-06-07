@@ -14,7 +14,7 @@ include './global/header.php';
   <!-- Hero area -->
   <section class="hero">
         <div class="col-md-7">
-            <h1 class="text-center animated fadeInUp"><span class="emphasis">5 Events</span><br><span class="emphasis">500 Teens</span></h1>
+            <h1 class="text-center animated fadeInUp"><span class="emphasis">4 Events</span><br><span class="emphasis">400 Teens</span></h1>
 
             <div class="line-text">
               <h2 class="text-center animated fadeInUp">A Summer of Opportunity</h2>
@@ -24,10 +24,10 @@ include './global/header.php';
 
             <h3 class="text-center animated fadeInUp animDelay04">
                 Some of the things you will learn...  <br class="br">
-                Making Websites | Writing A CV | Public Speaking <br></h3>
+                Making Websites | Writing A CV | Nonprofit Organizing <br></h3>
 
 
-            <p class="text-center animated fadeInUp animDelay04">and <span style="font-size: 25px">win $1250</span> in the community initiative competition</p>
+            <p class="text-center animated fadeInUp animDelay04">and <span style="font-size: 25px">win $1000</span> in the community initiative competition</p>
 
             <center>
               <a class="btn btn-wire wire-btn-white animated fadeInDown animDelay08" id="hero-register" href="#register">
@@ -54,7 +54,7 @@ include './global/header.php';
     <section id="events" class="workshops box">
       <!-- Title -->
 
-      <h1 class="text-center title" style="margin-bottom: 20px">Workshops about...</h1>
+      <h1 class="text-center title" style="margin-bottom: 20px">Do Something This Summer</h1>
 
       <!-- End Title -->
 
@@ -111,15 +111,9 @@ include './global/header.php';
 
         <div class="col-xs-12 col-sm-6">
           <div class="card">
-            <h2>Soft Skills</h2>
-            <p>August 19</p>
-            <ul style="list-style:none; padding-left: 0px;" class="card-list">
-                <li>Practice public speaking</li>
-                <li>Learn effective networking</li>
-                <li>Get tips to collaborate effectively</li>
-              </ul>
-            <a href="https://www.summerofopportunity.com/soft-skills" class="btn btn-blue">More Info</a>
-            <a href="#register" onclick="select('choice_soft_skills')" class="btn">Register Now | <?php echo $registration_fee['early'];?></a>
+            <h2>All events are <?php echo $registration_fee['early'];?> until <?php echo $registration_fee['regular_date'];?> and include lunch.</h2>
+            <h2><br>Special offer: Register for all 4 events for <?php echo $registration_fee['all'];?>!</h2>
+            <a href="#register" onclick="select('choice_all')" class="btn">Register Now</a>
           </div>
         </div>
       </div>
@@ -137,13 +131,10 @@ include './global/header.php';
               <!-- Description -->
               <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
-                  <h2>Community Initiative Competition</h2>
-                  <p class="cic-description">August 20<br>Make your idea a reality.
-                  <br><br>
-                  The Community Initiative Competition (CIC) is a competition designed to get students involved and taking action in their neighbourhoods. The competition will bring attention to local issues and possible solutions; the best proposal will be awarded with a choice of $500 to take home or $1250 to continue the initiative.
-                  <br><br>
-                  Attending "Soft Skills" will prepare you for the CIC and give you a better chance of winning. Of course, you can choose to attend Soft Skills without participating in the competition.
-                  </p>
+                  <h2>Soft Skills and Community Initiative Competition</h2>
+                  <p>August 19<br>Learn the skills needed to make your idea a reality, and win the funding to execute it.</p>
+                  <p>Workshops will teach you about organizing initiatives in your community and as a nonprofit, with some public speaking and presentation advice to prepare you for the CIC.</p>
+                  <p>The Community Initiative Competition (CIC) is a competition designed to get students involved and taking action in their neighbourhoods. The competition will bring attention to local issues and possible solutions; the best proposal will be awarded with a choice of $500 to take home or $1000 to continue the initiative.</p>
                 </div>
               </div>
               <!-- End Description -->
@@ -154,12 +145,12 @@ include './global/header.php';
                     <a href="https://www.summerofopportunity.com/competition" class="btn btn-blue">More Info</a>
                   </div>
                   <div class="col-sm-6">
-                    <a href="#register" onclick="select('choice_competition')" class="btn">Register Now | <?php echo $registration_fee['competition_early'];?></a>
+                    <a href="#register" onclick="select('choice_competition')" class="btn">Register Now | <?php echo $registration_fee['early'];?></a>
                   </div>
               </div>
               <!-- End Buttons -->
 
-              <h2 class="text-center" style="color:black;">...and a grand finale with <span style="font-size: 40px;"><u>$1250</u></span> in prize money...</h2>
+              <h2 class="text-center" style="color:black;">Do not miss the chance to win <span style="font-size: 40px;"><u>$1000</u></span>. Register before tickets sell out.</h2>
             </div>
           </div>
         </div>
@@ -223,8 +214,8 @@ include './global/header.php';
         <li>16</li>
         <li>17</li>
         <li>18</li>
-        <li class="used"><img src="img/ldg-small.png"><br>Soft Skills<br>19</li>
-        <li class="used"><img src="img/ldg-small.png"><br>Community Initiative Comp.<br>20</li>
+        <li class="used"><img src="img/ldg-small.png"><br>Soft Skills & CIC<br>19</li>
+        <li>20</li>
     </ul>
     <!-- End August calendar -->
 
@@ -240,7 +231,7 @@ include './global/header.php';
       <div class="col-sm-12">
         <img src="img/56pc-logo.png" alt="56 Paper Clips Logo" class="img-responsive feature-img" style="width:50%!important;">
         <a href="https://www.56paperclips.com"><h3>56 Paper Clips  |  Head Coordinator</h3></a>
-        <p>Led by Tobias Carryer and Tessa Furey</p>
+        <p>Led by Tobias Carryer</p>
       </div>
     </div>
 
