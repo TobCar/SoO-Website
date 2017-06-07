@@ -4,7 +4,7 @@
 
   <!-- First Row of Event Cards -->
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-4 col-md-offset-2">
       <a href="https://www.summerofopportunity.com/web-design">
         <div class="all-events-card">
           <img src="img/hero-web-design.jpg" class="img-responsive">
@@ -13,7 +13,7 @@
         </div>
       </a>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <a href="https://www.summerofopportunity.com/academic-success">
         <div class="all-events-card">
           <img src="img/hero-academic-success.jpg" class="img-responsive">
@@ -26,7 +26,7 @@
 
   <!-- Second Row of Event Cards -->
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-4 col-md-offset-2">
       <a href="https://www.summerofopportunity.com/careers-in-medicine">
         <div class="all-events-card">
           <img src="img/hero-medicine.jpg" class="img-responsive">
@@ -35,7 +35,7 @@
         </div>
       </a>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <a href="https://www.summerofopportunity.com/competition">
         <div class="all-events-card">
           <img src="img/hero-competition.jpg" class="img-responsive">
