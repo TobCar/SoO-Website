@@ -48,7 +48,7 @@ include './global/header.php';
     <section id="about" class="box-coloured" style="margin-top: 30px;">
       <h3>Today's world is constantly changing place. It requires you to think big, be creative, and take every chance you get.</h3>
       <p>At the Summer of Opportunity, you can develop the skills needed to navigate your future in this world. Learn about everything from coding to networking at this groundbreaking event, presented by <a href="https://www.56paperclips.com">56 Paper Clips</a> in partnership with the Local Development Group, National Student Network, Wish Youth Network Society, and Inova.</p>
-      <p>Organized by students for students, the Summer of Opportunity is your chance to explore new ideas and learn valuable skills through workshops, seminars and competitions hosted at HiVE in downtown Vancouver.</p>
+      <p>Organized by students for students, the Summer of Opportunity is your chance to explore new ideas and learn valuable skills through workshops, seminars and competitions hosted at HiVE in <b>downtown Vancouver</b>.</p>
     </section>
 
     <section id="events" class="workshops box">
@@ -74,7 +74,6 @@ include './global/header.php';
                   <li>Introduce yourself to programming</li>
                 </ul>
               <a href="https://www.summerofopportunity.com/web-design" class="btn btn-blue">More Info</a>
-              <a href="#register" onclick="select('choice_web_design')" class="btn">Register Now | <?php echo $registration_fee['early'];?></a>
             </div>
           </div>
 
@@ -88,7 +87,6 @@ include './global/header.php';
                   <li>Learn how to act during an interview</li>
                 </ul>
               <a href="https://www.summerofopportunity.com/academic-success" class="btn btn-blue">More Info</a>
-              <a href="#register" onclick="select('choice_academic_success')" class="btn">Register Now | <?php echo $registration_fee['early'];?></a>
             </div>
           </div>
         </div>
@@ -105,15 +103,14 @@ include './global/header.php';
                 <li>Features: Interactive sessions & multiple speakers</li>
               </ul>
             <a href="https://www.summerofopportunity.com/careers-in-medicine" class="btn btn-blue">More Info</a>
-            <a href="#register" onclick="select('choice_careers_in_medicine')" class="btn">Register Now | <?php echo $registration_fee['early'];?></a>
           </div>
         </div>
 
         <div class="col-xs-12 col-sm-6">
           <div class="card">
             <h2>All events are <?php echo $registration_fee['early'];?> until <?php echo $registration_fee['regular_date'];?> and include lunch.</h2>
-            <h2><br>Special offer: Register for all 4 events for <?php echo $registration_fee['all'];?>!</h2>
-            <a href="#register" onclick="select('choice_all')" class="btn">Register Now</a>
+            <p><br>Special offer: Register for all 4 events for <?php echo $registration_fee['all'];?>!</p>
+            <a href="#register" class="btn">Register Now</a>
           </div>
         </div>
       </div>
@@ -141,11 +138,8 @@ include './global/header.php';
 
               <!-- Buttons -->
               <div class="row">
-                  <div class="col-sm-6">
+                  <div class="col-sm-12">
                     <a href="https://www.summerofopportunity.com/competition" class="btn btn-blue">More Info</a>
-                  </div>
-                  <div class="col-sm-6">
-                    <a href="#register" onclick="select('choice_competition')" class="btn">Register Now | <?php echo $registration_fee['early'];?></a>
                   </div>
               </div>
               <!-- End Buttons -->
