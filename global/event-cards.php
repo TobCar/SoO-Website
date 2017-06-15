@@ -40,7 +40,7 @@
         <div class="all-events-card">
           <img src="img/hero-competition.jpg" class="img-responsive">
           <h2>Soft Skills | CIC</h2>
-          <p>August 20</p>
+          <p>August 19</p>
         </div>
       </a>
     </div>
