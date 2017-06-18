@@ -45,12 +45,6 @@ include './global/header.php';
   <!-- Main Container -->
   <div class="container">
 
-    <section id="about" class="box-coloured" style="margin-top: 30px;">
-      <h3>Today's world is constantly changing place. It requires you to think big, be creative, and take every chance you get.</h3>
-      <p>At the Summer of Opportunity, you can develop the skills needed to navigate your future in this world. Learn about everything from coding to networking at this groundbreaking event, presented by <a href="https://www.56paperclips.com">56 Paper Clips</a> in partnership with the Local Development Group, National Student Network, Wish Youth Network Society, and Inova.</p>
-      <p>Organized by students for students, the Summer of Opportunity is your chance to explore new ideas and learn valuable skills through workshops, seminars and competitions hosted at HiVE in <b>downtown Vancouver</b>.</p>
-    </section>
-
     <section id="events" class="workshops box">
       <!-- Title -->
 
@@ -152,6 +146,10 @@ include './global/header.php';
 
       </section>
     <!-- End Competitions Section -->
+
+    <?php
+    include 'global/registration-form.php';
+    ?>
 </div>
 <!-- Close main container for the calendar -->
   <!-- Calendar of when events are happening -->
@@ -268,14 +266,16 @@ include './global/header.php';
       </div>
     </div>
   </div>
-  <!-- End What you'll learn Container -->
+  <!-- End Sponsors Container -->
 
   <!-- Reopen main container -->
   <div class="container">
-    <?php
-    include 'global/registration-form.php';
-    ?>
 
+    <section id="about" class="box-coloured" style="margin-top: 30px;">
+      <h3>Today's world is constantly changing place. What are you going for your future?</h3>
+      <p>At the Summer of Opportunity, you can develop the skills needed to navigate your future in this world. Learn about everything from coding to networking at this groundbreaking event series, presented by <a href="https://www.56paperclips.com">56 Paper Clips</a>.</p>
+      <p>Organized by students for students, the Summer of Opportunity is your chance to explore new ideas and learn valuable skills through workshops, seminars and competitions hosted at HiVE in <b>downtown Vancouver</b>.</p>
+    </section>
 
     <div class="row">
       <!-- Like our Facebook page -->
