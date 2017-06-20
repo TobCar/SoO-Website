@@ -35,7 +35,9 @@ include 'global/header.php';
 
         <div class="col-sm-offset-2 col-sm-3 text-center">
           <img src="img/inova-logo.png" alt="inova computer association logo" class="organizer-logo"></img>
-          <p>This event is organized by the Inova Computer Association.</p>
+          <p>This event is organized by the Inova Computer Association</p>
+          <img src="img/lighthouselabs-logo.png" alt="Lighthouse Labs logo" style="width:100%!important;" class="organizer-logo"></img>
+          <p>and taught by Lighthouse Labs.</p>
         </div>
   </section>
   <!-- End Hero Area -->

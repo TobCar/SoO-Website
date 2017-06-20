@@ -265,6 +265,12 @@ include './global/header.php';
         <img src="img/envisionfinancial-logo.png" alt="Envision Financial Logo" class="img-responsive">
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-sm-4 col-sm-offset-4">
+        <img src="img/lighthouselabs-logo.png" alt="Lighthouse Labs Logo" class="img-responsive">
+      </div>
+    </div>
   </div>
   <!-- End Sponsors Container -->
 
