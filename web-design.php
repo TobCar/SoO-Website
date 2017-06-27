@@ -48,7 +48,7 @@ include 'global/header.php';
     <h1 class="title">Overview</h1>
     <p>Have you ever wanted to broadcast your ideas to the internet? Do you think website builders are too simplistic or don't suit your needs? Do you just want to learn more code? Do you enjoy competitions? If you answered yes to any of the questions above, the solution is in sight.
 <br><br>
-This day-long event will teach beginners the basics of HTML and CSS in order to allow ANYONE to develop a fully-fledged, working website. No prior knowledge of ANY programming language is required; the lessons included will be taught by experts in the field of web development.
+This day-long event will teach beginners the basics of HTML and CSS in order to allow ANYONE to develop a fully-fledged, working website. No prior knowledge of ANY programming language is required; the lessons included will be taught by experts from Lighthouse Labs.
 <br><br>
 The day will conclude with a mini-competition. The objective will be to design a fully-functioning website in a limited amount of time. The criteria for judging will be aspects of the website's design and functionality, such as User Interface/Experience (UI/UX), and fulfillment of the requirements.</p>
 
@@ -69,7 +69,7 @@ The day will conclude with a mini-competition. The objective will be to design a
       <div class="col-sm-4">
         <img src="img/workshop.png" class="img-responsive feature-img"></img>
         <h2>Workshops</h2>
-        <p>Taught by professional instructors.</p>
+        <p>Taught by Lighthouse Labs.</p>
       </div>
       <div class="col-sm-4">
         <img src="img/competition.png" class="img-responsive feature-img"></img>
