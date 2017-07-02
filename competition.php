@@ -85,7 +85,7 @@ include 'global/header.php';
       <div class="col-sm-4">
         <h2>Registration | <?php echo $registration_fee['early'];?> Early Bird</h2>
         <p><?php echo $registration_fee['regular'];?> Regular (<?php echo $registration_fee['regular_date'];?>)</p>
-        <h2>Includes lunch and snacks.</h2>
+        <h2>Includes lunch.</h2>
       </div>
       <!-- End Fee Includes -->
 
