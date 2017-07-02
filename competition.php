@@ -61,7 +61,7 @@ include 'global/header.php';
       <div class="col-sm-4">
         <img src="img/people.png" class="img-responsive feature-img"></img>
         <h2>Have 2-4 Team Members</h2>
-        <p>No one makes it alone. Choose people you are already friends with so you stay together when the going gets rough.</p>
+        <p>We will match you with other attendees if you don't have anyone to go with.</p>
       </div>
       <div class="col-sm-4">
         <img src="img/lightbulb.png" class="img-responsive feature-img"></img>
