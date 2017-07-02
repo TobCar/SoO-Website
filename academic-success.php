@@ -49,7 +49,7 @@ include 'global/header.php';
       We will cover how to request the fantastic reference letters,how to tackle common essay questions, and how to write a CV that showcases your
 skills.
 <br><br>
-<b>The NSN will also provide feedback on 1 CV/resum&#233; and 1 university application essay, provided you email us a week in advance at jlou@nsncanada.org.</b>
+<b>Optionally, the NSN will also provide feedback on 1 CV/resum&#233; and 1 university application essay, provided you email us a week in advance at jlou@nsncanada.org.</b>
 <br><br>
 <b>Acing Interviews</b><br>Put your best self forward! We will discuss different types of
 interviews, share tips on how to approach them, and provide responses to common questions.
@@ -106,7 +106,7 @@ interviews, share tips on how to approach them, and provide responses to common 
       <div class="col-sm-4" id="what-to-bring">
         <h2>What To Bring</h2>
         <p>Water Bottle</p>
-        <p>A copy of your CV</p>
+        <p>A copy of your CV (Optional)</p>
       </div>
       <!-- End What to Bring -->
     </div>

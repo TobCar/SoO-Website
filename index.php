@@ -77,7 +77,7 @@ include './global/header.php';
               <p>August 12</p>
                 <ul style="list-style:none; padding-left: 0px;" class="card-list">
                   <li>Listen to tips on applying to university</li>
-                  <li>Get personalized feedback on your CV</li>
+                  <li>Get tips on resume and CV writing</li>
                   <li>Learn how to act during an interview</li>
                 </ul>
               <a href="https://www.summerofopportunity.com/academic-success" class="btn btn-blue">More Info</a>
