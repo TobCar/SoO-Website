@@ -49,6 +49,11 @@ include 'global/header.php';
     In the afternoon participate in the Community Initiative Competition (CIC) to pitch your idea to take action in your neighbourhood. The competition will bring attention to local issues and possible solutions; the best proposal will be awarded with a choice of $500 to take home or $1000 to continue the initiative.
     </p>
 
+    <!-- GradusOne Keynote -->
+    <img src="/img/gradusone.png" style="width: 50%; margin:auto;"></img>
+    <p>Finally - complete your day with a keynote speech by GradusOne's project director, Manisha Narula!</p>
+    <!-- End GradusOne Keynote -->
+
   </div>
   <!-- End Overview Container -->
 
