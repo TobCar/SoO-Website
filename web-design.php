@@ -29,7 +29,7 @@ include 'global/header.php';
             <p class="text-center animated fadeInUp animDelay04">The programming languages that run the internet</p>
 
             <a href="#register" class="btn-hero btn btn-wire wire-btn-white animated fadeInDown animDelay08">
-                Register Now <?php echo $registration_fee['early'];?>
+                Register Now <?php echo $registration_fee['regular'];?>
             </a>
         </div>
 
@@ -86,8 +86,8 @@ The day will conclude with a mini-competition. The objective will be to design a
     <div class="row">
       <!-- Fee Includes -->
       <div class="col-sm-4">
-        <h2>Registration | <?php echo $registration_fee['early'];?> Early Bird</h2>
-        <p><?php echo $registration_fee['regular'];?> Regular (<?php echo $registration_fee['regular_date'];?>)</p>
+        <h2>Registration | <?php echo $registration_fee['regular'];?></h2>
+        <del>Early Bird | <?php echo $registration_fee['early'];?> Early Bird</del>
         <h2>Includes lunch.</h2>
       </div>
       <!-- End Fee Includes -->

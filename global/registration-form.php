@@ -8,18 +8,18 @@
         <div id="choices">
           <div class="row">
             <div class="col-xs-6">
-              <input id="choice_web_design" type="checkbox"><p class="checkbox_text_choice">Web Design (<?php echo $registration_fee['early'];?>)</p>
+              <input id="choice_web_design" type="checkbox"><p class="checkbox_text_choice">Web Design (<?php echo $registration_fee['regular'];?>)</p>
             </div>
             <div class="col-xs-6">
-              <input id="choice_academic_success" type="checkbox"><p class="checkbox_text_choice">Academic Success (<?php echo $registration_fee['early'];?>)</p>
+              <input id="choice_academic_success" type="checkbox"><p class="checkbox_text_choice">Academic Success (<?php echo $registration_fee['regular'];?>)</p>
             </div>
           </div>
           <div class="row">
             <div class="col-xs-6">
-              <input id="choice_careers_in_medicine" type="checkbox"><p class="checkbox_text_choice">Careers In Medicine (<?php echo $registration_fee['early'];?>)</p>
+              <input id="choice_careers_in_medicine" type="checkbox"><p class="checkbox_text_choice">Careers In Medicine (<?php echo $registration_fee['regular'];?>)</p>
             </div>
             <div class="col-xs-6">
-              <input id="choice_competition" type="checkbox"><p class="checkbox_text_choice">Soft Skills & CIC (<?php echo $registration_fee['early'];?>)</p>
+              <input id="choice_competition" type="checkbox"><p class="checkbox_text_choice">Soft Skills & CIC (<?php echo $registration_fee['regular'];?>)</p>
             </div>
           </div>
           <div class="row">

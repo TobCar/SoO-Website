@@ -88,8 +88,8 @@ interviews, share tips on how to approach them, and provide responses to common 
     <div class="row">
       <!-- Fee Includes -->
       <div class="col-sm-4">
-        <h2>Registration | <?php echo $registration_fee['early'];?> Early Bird</h2>
-        <p><?php echo $registration_fee['regular'];?> Regular (<?php echo $registration_fee['regular_date'];?>)</p>
+        <h2>Registration | <?php echo $registration_fee['regular'];?></h2>
+        <del>Early Bird | <?php echo $registration_fee['early'];?> Early Bird</del>
         <h2>Includes lunch.</h2>
       </div>
       <!-- End Fee Includes -->

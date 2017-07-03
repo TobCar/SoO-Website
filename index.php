@@ -102,7 +102,7 @@ include './global/header.php';
 
         <div class="col-xs-12 col-sm-6">
           <div class="card">
-            <h2>All events are <?php echo $registration_fee['early'];?> until <?php echo $registration_fee['regular_date'];?> and include lunch.</h2>
+            <h2>All events are <?php echo $registration_fee['regular'];?> and include lunch. Early bird discount is sold out!</h2>
             <p><br>Special offer: Register for all 4 events for <?php echo $registration_fee['all'];?>!</p>
             <a href="#register" class="btn">Register Now</a>
           </div>
