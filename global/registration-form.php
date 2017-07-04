@@ -19,11 +19,6 @@
               <input id="choice_careers_in_medicine" type="checkbox"><p class="checkbox_text_choice">Careers In Medicine (<?php echo $registration_fee['regular'];?>)</p>
             </div>
             <div class="col-xs-6">
-              <input id="choice_competition" type="checkbox"><p class="checkbox_text_choice">Soft Skills & CIC (<?php echo $registration_fee['regular'];?>)</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-6">
               <input id="choice_all" type="checkbox"><p class="checkbox_text_choice">All Events (<?php echo $registration_fee['all'];?>) BEST DEAL</p>
             </div>
           </div>
@@ -109,8 +104,6 @@ var handler = StripeCheckout.configure({
     events_attending['web_design'] = $('#choice_web_design').is(":checked");
     events_attending['academic_success'] = $('#choice_academic_success').is(":checked");
     events_attending['careers_in_medicine'] = $('#choice_careers_in_medicine').is(":checked");
-    events_attending['soft_skills'] = $('#choice_soft_skills').is(":checked");
-    events_attending['competition'] = $('#choice_competition').is(":checked");
     if( $('#choice_all').val() && $('#choice_all').is(":checked") ) {
       events_attending['all'] = true;
     } else {
@@ -147,10 +140,9 @@ document.getElementById('submit').addEventListener('click', function(e) {
   if( validateRegistration() ) {
     registrationCost = 0;
     const eventFee = <?php echo $stripe['event_fee'];?>;
-    const competitionFee = <?php echo $stripe['comp_fee'];?>;
 
     if( $('#choice_all').is(":checked") ) {
-      registrationCost = eventFee*3 + 500;
+      registrationCost = eventFee*2 + 500;
     } else {
       if( $('#choice_web_design').is(":checked") ) {
         registrationCost += eventFee;
@@ -160,12 +152,6 @@ document.getElementById('submit').addEventListener('click', function(e) {
       }
       if( $('#choice_careers_in_medicine').is(":checked") ) {
         registrationCost += eventFee;
-      }
-      if( $('#choice_soft_skills').is(":checked") ) {
-        registrationCost += eventFee;
-      }
-      if( $('#choice_competition').is(":checked") ) {
-        registrationCost += competitionFee;
       }
     }
 

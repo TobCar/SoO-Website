@@ -14,7 +14,7 @@ include './global/header.php';
   <!-- Hero area -->
   <section class="hero">
         <div class="col-md-7">
-            <h1 class="text-center animated fadeInUp"><span class="emphasis">4 Events</span><br><span class="emphasis">400 Teens</span></h1>
+            <h1 class="text-center animated fadeInUp"><span class="emphasis">3 Events</span><br><span class="emphasis">300 Teens</span></h1>
 
             <div class="line-text">
               <h2 class="text-center animated fadeInUp">A Summer of Opportunity</h2>
@@ -23,11 +23,7 @@ include './global/header.php';
             <p class="text-center animated fadeInUp">August 2017</p>
 
             <h3 class="text-center animated fadeInUp animDelay04">
-                Some of the things you will learn...  <br class="br">
-                Making Websites | Writing A CV | Nonprofit Organizing <br></h3>
-
-
-            <p class="text-center animated fadeInUp animDelay04">and <span style="font-size: 25px">win $1000</span> in the community initiative competition</p>
+                Learn how to make a website, apply to university, or pursue a medical career.</h3>
 
             <center>
               <a class="btn btn-wire wire-btn-white animated fadeInDown animDelay08" id="hero-register" href="#register">
@@ -102,8 +98,8 @@ include './global/header.php';
 
         <div class="col-xs-12 col-sm-6">
           <div class="card">
-            <h2>All events are <?php echo $registration_fee['regular'];?> and include lunch. Early bird discount is sold out!</h2>
-            <p><br>Special offer: Register for all 4 events for <?php echo $registration_fee['all'];?>!</p>
+            <h2>All events are <?php echo $registration_fee['regular'];?> and include lunch. Early bird already sold out!</h2>
+            <p><br>Special offer: Register for all 3 events for <?php echo $registration_fee['all'];?>!</p>
             <a href="#register" class="btn">Register Now</a>
           </div>
         </div>
@@ -111,41 +107,6 @@ include './global/header.php';
       <!-- End Workshop Cards -->
     </section>
     <!-- End Workshops Section -->
-
-    <!-- Competitions Section -->
-      <section id="competition" class="box">
-
-        <!-- Competition Card -->
-        <div class="row" >
-          <div class="col-xs-12">
-            <div class="card" id="card-competition" style="border-radius: 15px; padding-top: 33px;">
-              <!-- Description -->
-              <div class="row">
-                <div class="col-sm-8 col-sm-offset-2">
-                  <h2>Soft Skills and Community Initiative Competition</h2>
-                  <p>August 19<br>Learn the skills needed to make your idea a reality, and win the funding to execute it.</p>
-                  <p>Workshops will teach you about organizing initiatives in your community and as a nonprofit, with some public speaking and presentation advice to prepare you for the CIC.</p>
-                  <p>The Community Initiative Competition (CIC) is a competition designed to get students involved and taking action in their neighbourhoods. The competition will bring attention to local issues and possible solutions; the best proposal will be awarded with a choice of $500 to take home or $1000 to continue the initiative.</p>
-                </div>
-              </div>
-              <!-- End Description -->
-
-              <!-- Buttons -->
-              <div class="row">
-                  <div class="col-sm-12">
-                    <a href="https://www.summerofopportunity.com/competition" class="btn btn-blue">More Info</a>
-                  </div>
-              </div>
-              <!-- End Buttons -->
-
-              <h2 class="text-center" style="color:black;">Do not miss the chance to win <span style="font-size: 40px;"><u>$1000</u></span>. Register before tickets sell out.</h2>
-            </div>
-          </div>
-        </div>
-        <!-- End Competition Card -->
-
-      </section>
-    <!-- End Competitions Section -->
 
     <?php
     include 'global/registration-form.php';
@@ -200,14 +161,6 @@ include './global/header.php';
         <li>11</li>
         <li class="used"><img src="img/nsn-small.png"><br>Academic Success<br>12</li>
         <li class="used"><img src="img/wyns-small.png"><br>Careers In Medicine<br>13</li>
-
-        <li>14</li>
-        <li>15</li>
-        <li>16</li>
-        <li>17</li>
-        <li>18</li>
-        <li class="used"><img src="img/ldg-small.png"><br>Soft Skills & CIC<br>19</li>
-        <li>20</li>
     </ul>
     <!-- End August calendar -->
 
@@ -229,21 +182,17 @@ include './global/header.php';
 
     <div class="row">
       <h2>Event Organizers</h2>
-      <div class="col-sm-3">
+      <div class="col-sm-4">
         <img src="img/inova-logo.png" alt="Inova Logo" class="img-responsive feature-img">
         <h3>Inova Computer Association</h3>
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-4">
         <img src="img/nsn-logo.png" alt="NSN Logo" class="img-responsive feature-img">
         <h3>National Student Network</h3>
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-4">
         <img src="img/wyns-logo.png" alt="WYNS Logo" class="img-responsive feature-img">
         <h3>Wish Youth Network Society</h3>
-      </div>
-      <div class="col-sm-3">
-        <img src="img/ldg-logo.png" alt="LDG Logo" class="img-responsive feature-img">
-        <h3>Local Development Group</h3>
       </div>
     </div>
   </div>
@@ -280,7 +229,7 @@ include './global/header.php';
     <section id="about" class="box-coloured" style="margin-top: 30px;">
       <h3>Today's world is constantly changing place. What are you going for your future?</h3>
       <p>At the Summer of Opportunity, you can develop the skills needed to navigate your future in this world. Learn about everything from coding to networking at this groundbreaking event series, presented by <a href="https://www.56paperclips.com">56 Paper Clips</a>.</p>
-      <p>Organized by students for students, the Summer of Opportunity is your chance to explore new ideas and learn valuable skills through workshops, seminars and competitions hosted at HiVE in <b>downtown Vancouver</b>.</p>
+      <p>Organized by students for students, the Summer of Opportunity is your chance to explore new ideas and learn valuable skills through workshops, seminars and Q&A sessions hosted at HiVE in <b>downtown Vancouver</b>.</p>
     </section>
 
     <div class="row">
