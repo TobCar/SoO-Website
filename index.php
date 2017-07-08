@@ -211,13 +211,13 @@ include './global/header.php';
         <img src="img/hive-logo.png" alt="HiVE Logo" class="img-responsive">
       </div>
       <div class="col-sm-4">
-        <img src="img/envisionfinancial-logo.png" alt="Envision Financial Logo" class="img-responsive">
+        <img src="img/lighthouselabs-logo.png" alt="Lighthouse Labs Logo" class="img-responsive">
       </div>
     </div>
 
     <div class="row">
       <div class="col-sm-4 col-sm-offset-4">
-        <img src="img/lighthouselabs-logo.png" alt="Lighthouse Labs Logo" class="img-responsive">
+        <img src="img/metropolis-logo.png" alt="Metropolis at Metrotown Logo" class="img-responsive">
       </div>
     </div>
   </div>
