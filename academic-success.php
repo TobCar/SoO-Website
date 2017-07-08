@@ -29,7 +29,7 @@ include 'global/header.php';
             <p class="text-center animated fadeInUp animDelay04">Learn everything you need to succeed in post-secondary!</p>
 
             <a href="#register" class="btn-hero btn btn-wire wire-btn-white animated fadeInDown animDelay08">
-                Register Now <?php echo $registration_fee['early'];?>
+                Register Now <?php echo $registration_fee['regular'];?>
             </a>
         </div>
 
