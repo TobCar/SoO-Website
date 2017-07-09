@@ -14,7 +14,7 @@ include './global/header.php';
   <!-- Hero area -->
   <section class="hero">
         <div class="col-md-7">
-            <h1 class="text-center animated fadeInUp"><span class="emphasis">3 Events</span><br><span class="emphasis">300 Teens</span></h1>
+            <h1 class="text-center animated fadeInUp"><span class="emphasis">3 Events</span><br><span class="emphasis">250 Teens</span></h1>
 
             <div class="line-text">
               <h2 class="text-center animated fadeInUp">A Summer of Opportunity</h2>
