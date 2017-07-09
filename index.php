@@ -61,7 +61,7 @@ include './global/header.php';
               <ul style="list-style:none; padding-left: 0px;" class="card-list">
                   <li>Learn HTML & CSS</li>
                   <li>Make a basic site in 1 day</li>
-                  <li>Introduce yourself to programming</li>
+                  <li>Win $100 in Inova's competition</li>
                 </ul>
               <a href="https://www.summerofopportunity.com/web-design" class="btn btn-blue">More Info</a>
             </div>

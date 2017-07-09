@@ -23,10 +23,10 @@ include 'global/header.php';
             <h2 class="text-center animated fadeInUp">August 5, 2017</h2>
 
             <h3 class="text-center animated fadeInUp animDelay04">
-                HTML & CSS Basics
+                HTML & CSS Workshops
             </h3>
 
-            <p class="text-center animated fadeInUp animDelay04">The programming languages that run the internet</p>
+            <p class="text-center animated fadeInUp animDelay04">Competition To Win $100</p>
 
             <a href="#register" class="btn-hero btn btn-wire wire-btn-white animated fadeInDown animDelay08">
                 Register Now <?php echo $registration_fee['regular'];?>
@@ -50,7 +50,7 @@ include 'global/header.php';
 <br><br>
 This day-long event will teach beginners the basics of HTML and CSS in order to allow ANYONE to develop a fully-fledged, working website. No prior knowledge of ANY programming language is required; the lessons included will be taught by experts from Lighthouse Labs.
 <br><br>
-The day will conclude with a mini-competition. The objective will be to design a fully-functioning website in a limited amount of time. The criteria for judging will be aspects of the website's design and functionality, such as User Interface/Experience (UI/UX), and fulfillment of the requirements.</p>
+The day will conclude with a competition to win $100. The judging criteria will include aspects of the website's design and functionality, such as User Interface/Experience (UI/UX), and fulfillment of the requirements.</p>
 
   </div>
   <!-- End Overview Container -->
@@ -73,8 +73,8 @@ The day will conclude with a mini-competition. The objective will be to design a
       </div>
       <div class="col-sm-4">
         <img src="img/competition.png" class="img-responsive feature-img"></img>
-        <h2>Mini-Competition</h2>
-        <p>Team up with your friends and compete to make the best website.</p>
+        <h2>$100 Cash Prize</h2>
+        <p>Team up with your friends in our competition.</p>
       </div>
     </div>
   </div>
