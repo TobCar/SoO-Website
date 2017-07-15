@@ -172,7 +172,7 @@ include 'global/header.php';
           </tr>
           <tr>
               <td>12:45PM - 1:30PM</td>
-              <td>Workshops</td>
+              <td>First Aid Workshop</td>
           </tr>
           <tr>
               <td>1:30PM - 2:00PM</td>
