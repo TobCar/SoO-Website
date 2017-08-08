@@ -161,24 +161,44 @@ interviews, share tips on how to approach them, and provide responses to common 
               <td>Opening Ceremonies</td>
           </tr>
           <tr>
-              <td>10:00AM - 12:00PM</td>
+              <td>10:00AM - 10:45AM</td>
+              <td>Keynote Speech</td>
+          </tr>
+          <tr>
+              <td>10:45AM - 11:00AM</td>
+              <td>Break</td>
+          </tr>
+          <tr>
+              <td>11:00AM - 12:00PM</td>
               <td>Roadmap to a Winning Application</td>
           </tr>
           <tr>
-              <td>12:00PM - 1:00PM</td>
-              <td>Lunch/ Networking with National Young Leaders</td>
+              <td>12:00PM - 12:15PM</td>
+              <td>Lunch</td>
           </tr>
           <tr>
-              <td>1:00PM - 2:30PM</td>
-              <td>Acing Academic Interviews</td>
+              <td>12:15PM - 1:15PM</td>
+              <td>Panel Discussion With National Young Leaders</td>
           </tr>
           <tr>
-              <td>2:30PM - 4:00PM</td>
-              <td>Scholarly Writing Workshop</td>
+              <td>1:15PM - 3:00PM</td>
+              <td>Acing the Interview</td>
           </tr>
           <tr>
-              <td>4:00 PM - 5:00 PM</td>
-              <td>Q&A With National Young Leaders</td>
+              <td>3:00PM - 3:10PM</td>
+              <td>Break</td>
+          </tr>
+          <tr>
+              <td>3:10PM - 4:00PM</td>
+              <td>Introduction to Scholarly Writing</td>
+          </tr>
+          <tr>
+              <td>4:00PM - 5:00PM</td>
+              <td>Networking with the National Young Leaders</td>
+          </tr>
+          <tr>
+              <td>5:00PM - 5:10PM</td>
+              <td>Closing Remarks</td>
           </tr>
       </tbody>
   </table>
